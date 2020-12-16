@@ -1,0 +1,115 @@
+﻿
+@{
+    ViewBag.Title = "EditDataSet";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@using acikveriportal.Models
+@model DataSet
+
+
+<body>
+
+    <input type="button" class="btn btn-success" value="Veri Seti Listesi" onclick="location.href='@Url.Action("All", "Dashboard")'" />
+    <section>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    @using (Html.BeginForm("DataSetEdited", "Dashboard", FormMethod.Post, new { enctype = "multipart/form-data" }))
+                    {
+                        @Html.HiddenFor(n => n.Id)
+                        <div class="form-group">
+                            @Html.LabelFor(n => n.Title)
+                            @Html.TextBoxFor(n => n.Title, new { @class = "form-control" })
+                            @Html.ValidationMessageFor(n => n.Title, "", new { @class = "text-danger" })
+                        </div>
+                        <div class="form-group">
+                            @Html.LabelFor(n => n.Description)
+                            @Html.TextBoxFor(n => n.Description, new { @class = "form-control" })
+                            @Html.ValidationMessageFor(n => n.Description, "", new { @class = "text-danger" })
+                        </div>
+
+
+                        <div class="form-group">
+                            @Html.LabelFor(n => n.OrganizationId)
+                            @Html.DropDownListFor(n => n.OrganizationId, new SelectList(ViewBag.Organizations, "Id", "Name"), "Organizasyon Seç..", new { @class = "form-control" })
+                            @Html.ValidationMessageFor(n => n.OrganizationId, "", new { @class = "text-danger" })
+                        </div>
+
+                        <div class="form-group">
+                            @Html.LabelFor(n => n.CategoryId)
+                            @Html.DropDownListFor(n => n.CategoryId, new SelectList(ViewBag.Categories, "Id", "Name"), "Kategori Seç..", new { @class = "form-control" })
+                            @Html.ValidationMessageFor(n => n.CategoryId, "", new { @class = "text-danger" })
+                        </div>
+                        <div class="form-group">
+                            @Html.LabelFor(n => n.FormatId)
+                            @Html.DropDownListFor(n => n.FormatId, new SelectList(ViewBag.Formats, "Id", "Name"), "Format Seç..", new { @class = "form-control" })
+                            @Html.ValidationMessageFor(n => n.FormatId, "", new { @class = "text-danger" })
+                        </div>
+
+                        <div class="form-group">
+                            @Html.LabelFor(n => n.LicenseId)
+                            @Html.DropDownListFor(n => n.LicenseId, new SelectList(ViewBag.Licenses, "Id", "Name"), "Lisans Seç..", new { @class = "form-control" })
+                            @Html.ValidationMessageFor(n => n.LicenseId, "", new { @class = "text-danger" })
+                        </div>
+                        <div class="form-group">
+                            @Html.LabelFor(n => n.LabelId)
+                            @Html.DropDownListFor(n => n.LabelId, new SelectList(ViewBag.Labels, "Id", "Name"), "Etiket Seç..", new { @class = "form-control" })
+                            @Html.ValidationMessageFor(n => n.LabelId, "", new { @class = "text-danger" })
+                        </div>
+                        <div class="editor-label">
+                            <label>Dosya</label>
+                        </div>
+                        <div class="editor-field">
+                            <input type="file" class="btn btn-info" name="file" multiple="multiple" />
+
+                            <ul class="attachment">
+                                @foreach (var item in Model.DataSetFileDetails)
+                                {
+                                    <li>
+                                        <a class="title" href="/Dashboard/Download/?p=@(item.FileDataId + item.Extension)&d=@item.FileName">@item.FileName (İndir)</a>
+                                        <a href="/Dashboard/DeleteFile/?id=@item.FileDataId">Sil</a>
+                                    </li>
+
+                                }
+                            </ul>
+                        </div>
+                        <button type="submit" class="btn btn-success">Kaydet</button>
+                    }
+
+                </div>
+            </div>
+        </div>
+    </section>
+    @section Scripts {
+        <script src="~/Scripts/jquery.validate.min.js"></script>
+        <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+    }
+
+    <script type="text/javascript">
+
+    $('.deleteItem').click(function (e) {
+           e.preventDefault();
+           var $ctrl = $(this);
+           if (confirm('Do you really want to delete this file?')) {
+               $.ajax({
+                   url: '@Url.Action("DeleteFile", "Dashboard")',
+                type: 'POST',
+                data: { id: $(this).data('id') }
+                }).done(function (data) {
+                if (data.Result == "OK") {
+                $ctrl.closest('li').remove();
+                }
+                else if (data.Result.Message) {
+                 alert(data.Result.Message);
+                }
+                }).fail(function () {
+                alert("There is something wrong. Please try again.");
+                })
+
+                }
+                });
+    </script>
+</body>
+
+

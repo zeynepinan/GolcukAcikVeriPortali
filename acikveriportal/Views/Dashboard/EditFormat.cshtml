@@ -1,0 +1,35 @@
+﻿
+@{
+    ViewBag.Title = "EditFormat";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@using acikveriportal.Models
+@model Format
+
+<body>
+
+    <input type="button" class="btn btn-info" value="Format Listesi" onclick="location.href='@Url.Action("AllFormat", "Dashboard")'" />
+    <section>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    @using (Html.BeginForm("FormatEdited", "Dashboard", FormMethod.Post))
+                    {
+                        @Html.HiddenFor(n => n.Id)
+                        <div class="form-group">
+                            @Html.LabelFor(n => n.Name)
+                            @Html.TextBoxFor(n => n.Name, new { @class = "form-control" })
+                            @Html.ValidationMessageFor(n => n.Name, "", new { @class = "text-danger" })
+                        </div>
+
+                        <button type="submit" class="btn btn-success">Kaydet</button>
+                    }
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>

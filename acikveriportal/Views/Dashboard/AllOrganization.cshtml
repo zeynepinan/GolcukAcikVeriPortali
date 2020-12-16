@@ -1,0 +1,50 @@
+﻿
+@{
+    ViewBag.Title = "AllOrganization";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@using acikveriportal.Models
+@*@using Microsoft.AspNetCore.Identity*@
+@model List<Organization>
+
+    <body>
+        <input type="button" class="btn btn-success" value="Organizasyon Ekle" onclick="location.href='@Url.Action("CreateOrganization", "Dashboard")'" />
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        @if (Model.Count() > 0)
+                        {
+                            <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Ad a göre ara.." title="Type in a name">
+                            <table class="table table-hover" id="list">
+                                <thead>
+                                <th>Ad</th>
+                                <th>Düzenle</th>
+                                <th>Sil</th>
+                                </thead>
+                                <tbody>
+                                    @foreach (Organization organization in Model)
+                                    {
+                                        <tr>
+                                            <td>@organization.Name</td>
+                                            <td>@Html.ActionLink("Düzenle", "EditOrganization", "Dashboard", new { @id = $"{organization.Id}" }, null)</td>
+                                            <td>@Html.ActionLink("Sil", "DeleteOrganization", "Dashboard", new { @id = $"{organization.Id}" }, null)</td>
+                                            
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        }
+                        else
+                        {
+                            <div class="text-center alert-info">
+                                <h3> Organizasyon Yok</h3>
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
+
+

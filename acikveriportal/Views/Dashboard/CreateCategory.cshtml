@@ -1,0 +1,34 @@
+﻿
+@using acikveriportal.Models
+@model Category
+
+@{
+    ViewBag.Title = "CreateCategory";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<body>
+    <input type="button" class="btn btn-info" value="Kategori Listesi" onclick="location.href='@Url.Action("AllCategory", "Dashboard")'" />
+    <section>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    @using (Html.BeginForm("CategoryCreated", "Dashboard", FormMethod.Post))
+                    {
+                        <div class="form-group">
+                            @Html.LabelFor(n => n.Name)
+                            @Html.TextBoxFor(n => n.Name, new { @class = "form-control" })
+                            @Html.ValidationMessageFor(n => n.Name, "", new { @class = "text-danger" })
+                        </div>
+                        <button type="submit" class="btn btn-success">Kaydet</button>
+                    }
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+
+

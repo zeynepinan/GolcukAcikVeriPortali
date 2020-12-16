@@ -1,0 +1,587 @@
+C:\Users\Zeynep İnan\Source\Repos\acikveriportal\acikveriportal\bin\acikveriportal.dll.config
+C:\Users\Zeynep İnan\Source\Repos\acikveriportal\acikveriportal\bin\acikveriportal.dll
+C:\Users\Zeynep İnan\Source\Repos\acikveriportal\acikveriportal\bin\acikveriportal.pdb
+C:\Users\Zeynep İnan\Source\Repos\acikveriportal\acikveriportal\bin\roslyn\csc.exe
+C:\Users\Zeynep İnan\Source\Repos\acikveriportal\acikveriportal\bin\roslyn\csc.exe.config
+C:\Users\Zeynep İnan\Source\Repos\acikveriportal\acikveriportal\bin\roslyn\csc.rsp
+C:\Users\Zeynep İnan\Source\Repos\acikveriportal\acikveriportal\bin\roslyn\csi.exe
+C:\Users\Zeynep İnan\Source\Repos\acikveriportal\acikveriportal\bin\roslyn\csi.exe.config
+C:\Users\Zeynep İnan\Source\Repos\acikveriportal\acikveriportal\bin\roslyn\csi.rsp
+C:\Users\Zeynep İnan\Source\Repos\acikveriportal\acikveriportal\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Zeynep İnan\Source\Repos\acikveriportal\acikveriportal\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Zeynep İnan\Source\Repos\acikveriportal\acikveriportal\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Zeynep İnan\Source\Repos\acikveriportal\acikveriportal\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Zeynep İnan\Source\Repos\acikveriportal\acikveriportal\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Zeynep İnan\Source\Repos\acikveriportal\acikveriportal\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Zeynep İnan\Source\Repos\acikveriportal\acikveriportal\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Zeynep İnan\Source\Repos\acikveriportal\acikveriportal\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Zeynep İnan\Source\Repos\acikveriportal\acikveriportal\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Zeynep İnan\Source\Repos\acikveriportal\acikveriportal\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Zeynep İnan\Source\Repos\acikveriportal\acikveriportal\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Zeynep İnan\Source\Repos\acikveriportal\acikveriportal\bin\roslyn\System.AppContext.dll
+C:\Users\Zeynep İnan\Source\Repos\acikveriportal\acikveriportal\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Zeynep İnan\Source\Repos\acikveriportal\acikveriportal\bin\roslyn\System.Console.dll
+C:\Users\Zeynep İnan\Source\Repos\acikveriportal\acikveriportal\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Zeynep İnan\Source\Repos\acikveriportal\acikveriportal\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\Zeynep İnan\Source\Repos\acikveriportal\acikveriportal\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Zeynep İnan\Source\Repos\acikveriportal\acikveriportal\bin\roslyn\System.IO.Compression.dll
+C:\Users\Zeynep İnan\Source\Repos\acikveriportal\acikveriportal\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Zeynep İnan\Source\Repos\acikveriportal\acikveriportal\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\Zeynep İnan\Source\Repos\acikveriportal\acikveriportal\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Zeynep İnan\Source\Repos\acikveriportal\acikveriportal\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Zeynep İnan\Source\Repos\acikveriportal\acikveriportal\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Zeynep İnan\Source\Repos\acikveriportal\acikveriportal\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Zeynep İnan\Source\Repos\acikveriportal\acikveriportal\bin\roslyn\System.Security.Claims.dll
+C:\Users\Zeynep İnan\Source\Repos\acikveriportal\acikveriportal\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Zeynep İnan\Source\Repos\acikveriportal\acikveriportal\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Zeynep İnan\Source\Repos\acikveriportal\acikveriportal\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Zeynep İnan\Source\Repos\acikveriportal\acikveriportal\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Zeynep İnan\Source\Repos\acikveriportal\acikveriportal\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Zeynep İnan\Source\Repos\acikveriportal\acikveriportal\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Zeynep İnan\Source\Repos\acikveriportal\acikveriportal\bin\roslyn\System.Threading.Thread.dll
+C:\Users\Zeynep İnan\Source\Repos\acikveriportal\acikveriportal\bin\roslyn\System.ValueTuple.dll
+C:\Users\Zeynep İnan\Source\Repos\acikveriportal\acikveriportal\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Zeynep İnan\Source\Repos\acikveriportal\acikveriportal\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Zeynep İnan\Source\Repos\acikveriportal\acikveriportal\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Zeynep İnan\Source\Repos\acikveriportal\acikveriportal\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Zeynep İnan\Source\Repos\acikveriportal\acikveriportal\bin\roslyn\vbc.exe
+C:\Users\Zeynep İnan\Source\Repos\acikveriportal\acikveriportal\bin\roslyn\vbc.exe.config
+C:\Users\Zeynep İnan\Source\Repos\acikveriportal\acikveriportal\bin\roslyn\vbc.rsp
+C:\Users\Zeynep İnan\Source\Repos\acikveriportal\acikveriportal\bin\roslyn\VBCSCompiler.exe
+C:\Users\Zeynep İnan\Source\Repos\acikveriportal\acikveriportal\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Zeynep İnan\Source\Repos\acikveriportal\acikveriportal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Zeynep İnan\Source\Repos\acikveriportal\acikveriportal\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Zeynep İnan\Source\Repos\acikveriportal\acikveriportal\bin\System.Web.Helpers.dll
+C:\Users\Zeynep İnan\Source\Repos\acikveriportal\acikveriportal\bin\System.Web.Mvc.dll
+C:\Users\Zeynep İnan\Source\Repos\acikveriportal\acikveriportal\bin\System.Web.Razor.dll
+C:\Users\Zeynep İnan\Source\Repos\acikveriportal\acikveriportal\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Zeynep İnan\Source\Repos\acikveriportal\acikveriportal\bin\System.Web.Webpages.dll
+C:\Users\Zeynep İnan\Source\Repos\acikveriportal\acikveriportal\bin\System.Web.Webpages.Razor.dll
+C:\Users\Zeynep İnan\Source\Repos\acikveriportal\acikveriportal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Zeynep İnan\Source\Repos\acikveriportal\acikveriportal\bin\System.Web.Razor.xml
+C:\Users\Zeynep İnan\Source\Repos\acikveriportal\acikveriportal\bin\System.Web.Webpages.xml
+C:\Users\Zeynep İnan\Source\Repos\acikveriportal\acikveriportal\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Zeynep İnan\Source\Repos\acikveriportal\acikveriportal\bin\System.Web.Webpages.Razor.xml
+C:\Users\Zeynep İnan\Source\Repos\acikveriportal\acikveriportal\bin\System.Web.Helpers.xml
+C:\Users\Zeynep İnan\Source\Repos\acikveriportal\acikveriportal\bin\System.Web.Mvc.xml
+C:\Users\Zeynep İnan\Source\Repos\acikveriportal\acikveriportal\bin\tr\System.Web.Razor.resources.dll
+C:\Users\Zeynep İnan\Source\Repos\acikveriportal\acikveriportal\bin\tr\System.Web.Webpages.resources.dll
+C:\Users\Zeynep İnan\Source\Repos\acikveriportal\acikveriportal\bin\tr\System.Web.Webpages.Deployment.resources.dll
+C:\Users\Zeynep İnan\Source\Repos\acikveriportal\acikveriportal\bin\tr\System.Web.Webpages.Razor.resources.dll
+C:\Users\Zeynep İnan\Source\Repos\acikveriportal\acikveriportal\bin\tr\System.Web.Helpers.resources.dll
+C:\Users\Zeynep İnan\Source\Repos\acikveriportal\acikveriportal\bin\tr\System.Web.Mvc.resources.dll
+C:\Users\Zeynep İnan\Source\Repos\acikveriportal\acikveriportal\obj\Debug\acikveriportal.csprojResolveAssemblyReference.cache
+C:\Users\Zeynep İnan\Source\Repos\acikveriportal\acikveriportal\obj\Debug\acikveriportal.csproj.CoreCompileInputs.cache
+C:\Users\Zeynep İnan\Source\Repos\acikveriportal\acikveriportal\obj\Debug\acikveriportal.csproj.CopyComplete
+C:\Users\Zeynep İnan\Source\Repos\acikveriportal\acikveriportal\obj\Debug\acikveriportal.dll
+C:\Users\Zeynep İnan\Source\Repos\acikveriportal\acikveriportal\obj\Debug\acikveriportal.pdb
+C:\Users\Zeynep İnan\Source\Repos\acikveriportal\acikveriportal\bin\EntityFramework.dll
+C:\Users\Zeynep İnan\Source\Repos\acikveriportal\acikveriportal\bin\EntityFramework.SqlServer.dll
+C:\Users\Zeynep İnan\Source\Repos\acikveriportal\acikveriportal\bin\EntityFramework.xml
+C:\Users\Zeynep İnan\Source\Repos\acikveriportal\acikveriportal\bin\EntityFramework.SqlServer.xml
+C:\Users\Zeynep İnan\Desktop\acikveriportal\acikveriportal\bin\acikveriportal.dll.config
+C:\Users\Zeynep İnan\Desktop\acikveriportal\acikveriportal\bin\acikveriportal.dll
+C:\Users\Zeynep İnan\Desktop\acikveriportal\acikveriportal\bin\acikveriportal.pdb
+C:\Users\Zeynep İnan\Desktop\acikveriportal\acikveriportal\bin\roslyn\csc.exe
+C:\Users\Zeynep İnan\Desktop\acikveriportal\acikveriportal\bin\roslyn\csc.exe.config
+C:\Users\Zeynep İnan\Desktop\acikveriportal\acikveriportal\bin\roslyn\csc.rsp
+C:\Users\Zeynep İnan\Desktop\acikveriportal\acikveriportal\bin\roslyn\csi.exe
+C:\Users\Zeynep İnan\Desktop\acikveriportal\acikveriportal\bin\roslyn\csi.exe.config
+C:\Users\Zeynep İnan\Desktop\acikveriportal\acikveriportal\bin\roslyn\csi.rsp
+C:\Users\Zeynep İnan\Desktop\acikveriportal\acikveriportal\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Zeynep İnan\Desktop\acikveriportal\acikveriportal\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Zeynep İnan\Desktop\acikveriportal\acikveriportal\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Zeynep İnan\Desktop\acikveriportal\acikveriportal\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Zeynep İnan\Desktop\acikveriportal\acikveriportal\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Zeynep İnan\Desktop\acikveriportal\acikveriportal\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Zeynep İnan\Desktop\acikveriportal\acikveriportal\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Zeynep İnan\Desktop\acikveriportal\acikveriportal\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Zeynep İnan\Desktop\acikveriportal\acikveriportal\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Zeynep İnan\Desktop\acikveriportal\acikveriportal\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Zeynep İnan\Desktop\acikveriportal\acikveriportal\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Zeynep İnan\Desktop\acikveriportal\acikveriportal\bin\roslyn\System.AppContext.dll
+C:\Users\Zeynep İnan\Desktop\acikveriportal\acikveriportal\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Zeynep İnan\Desktop\acikveriportal\acikveriportal\bin\roslyn\System.Console.dll
+C:\Users\Zeynep İnan\Desktop\acikveriportal\acikveriportal\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Zeynep İnan\Desktop\acikveriportal\acikveriportal\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\Zeynep İnan\Desktop\acikveriportal\acikveriportal\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Zeynep İnan\Desktop\acikveriportal\acikveriportal\bin\roslyn\System.IO.Compression.dll
+C:\Users\Zeynep İnan\Desktop\acikveriportal\acikveriportal\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Zeynep İnan\Desktop\acikveriportal\acikveriportal\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\Zeynep İnan\Desktop\acikveriportal\acikveriportal\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Zeynep İnan\Desktop\acikveriportal\acikveriportal\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Zeynep İnan\Desktop\acikveriportal\acikveriportal\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Zeynep İnan\Desktop\acikveriportal\acikveriportal\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Zeynep İnan\Desktop\acikveriportal\acikveriportal\bin\roslyn\System.Security.Claims.dll
+C:\Users\Zeynep İnan\Desktop\acikveriportal\acikveriportal\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Zeynep İnan\Desktop\acikveriportal\acikveriportal\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Zeynep İnan\Desktop\acikveriportal\acikveriportal\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Zeynep İnan\Desktop\acikveriportal\acikveriportal\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Zeynep İnan\Desktop\acikveriportal\acikveriportal\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Zeynep İnan\Desktop\acikveriportal\acikveriportal\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Zeynep İnan\Desktop\acikveriportal\acikveriportal\bin\roslyn\System.Threading.Thread.dll
+C:\Users\Zeynep İnan\Desktop\acikveriportal\acikveriportal\bin\roslyn\System.ValueTuple.dll
+C:\Users\Zeynep İnan\Desktop\acikveriportal\acikveriportal\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Zeynep İnan\Desktop\acikveriportal\acikveriportal\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Zeynep İnan\Desktop\acikveriportal\acikveriportal\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Zeynep İnan\Desktop\acikveriportal\acikveriportal\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Zeynep İnan\Desktop\acikveriportal\acikveriportal\bin\roslyn\vbc.exe
+C:\Users\Zeynep İnan\Desktop\acikveriportal\acikveriportal\bin\roslyn\vbc.exe.config
+C:\Users\Zeynep İnan\Desktop\acikveriportal\acikveriportal\bin\roslyn\vbc.rsp
+C:\Users\Zeynep İnan\Desktop\acikveriportal\acikveriportal\bin\roslyn\VBCSCompiler.exe
+C:\Users\Zeynep İnan\Desktop\acikveriportal\acikveriportal\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Zeynep İnan\Desktop\acikveriportal\acikveriportal\bin\EntityFramework.dll
+C:\Users\Zeynep İnan\Desktop\acikveriportal\acikveriportal\bin\EntityFramework.SqlServer.dll
+C:\Users\Zeynep İnan\Desktop\acikveriportal\acikveriportal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Zeynep İnan\Desktop\acikveriportal\acikveriportal\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Zeynep İnan\Desktop\acikveriportal\acikveriportal\bin\System.Web.Helpers.dll
+C:\Users\Zeynep İnan\Desktop\acikveriportal\acikveriportal\bin\System.Web.Mvc.dll
+C:\Users\Zeynep İnan\Desktop\acikveriportal\acikveriportal\bin\System.Web.Razor.dll
+C:\Users\Zeynep İnan\Desktop\acikveriportal\acikveriportal\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Zeynep İnan\Desktop\acikveriportal\acikveriportal\bin\System.Web.Webpages.dll
+C:\Users\Zeynep İnan\Desktop\acikveriportal\acikveriportal\bin\System.Web.Webpages.Razor.dll
+C:\Users\Zeynep İnan\Desktop\acikveriportal\acikveriportal\bin\EntityFramework.xml
+C:\Users\Zeynep İnan\Desktop\acikveriportal\acikveriportal\bin\EntityFramework.SqlServer.xml
+C:\Users\Zeynep İnan\Desktop\acikveriportal\acikveriportal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Zeynep İnan\Desktop\acikveriportal\acikveriportal\bin\System.Web.Razor.xml
+C:\Users\Zeynep İnan\Desktop\acikveriportal\acikveriportal\bin\System.Web.Webpages.xml
+C:\Users\Zeynep İnan\Desktop\acikveriportal\acikveriportal\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Zeynep İnan\Desktop\acikveriportal\acikveriportal\bin\System.Web.Webpages.Razor.xml
+C:\Users\Zeynep İnan\Desktop\acikveriportal\acikveriportal\bin\System.Web.Helpers.xml
+C:\Users\Zeynep İnan\Desktop\acikveriportal\acikveriportal\bin\System.Web.Mvc.xml
+C:\Users\Zeynep İnan\Desktop\acikveriportal\acikveriportal\bin\tr\System.Web.Razor.resources.dll
+C:\Users\Zeynep İnan\Desktop\acikveriportal\acikveriportal\bin\tr\System.Web.Webpages.resources.dll
+C:\Users\Zeynep İnan\Desktop\acikveriportal\acikveriportal\bin\tr\System.Web.Webpages.Deployment.resources.dll
+C:\Users\Zeynep İnan\Desktop\acikveriportal\acikveriportal\bin\tr\System.Web.Webpages.Razor.resources.dll
+C:\Users\Zeynep İnan\Desktop\acikveriportal\acikveriportal\bin\tr\System.Web.Helpers.resources.dll
+C:\Users\Zeynep İnan\Desktop\acikveriportal\acikveriportal\bin\tr\System.Web.Mvc.resources.dll
+C:\Users\Zeynep İnan\Desktop\acikveriportal\acikveriportal\obj\Debug\acikveriportal.csproj.CoreCompileInputs.cache
+C:\Users\Zeynep İnan\Desktop\acikveriportal\acikveriportal\obj\Debug\acikveriportal.csproj.CopyComplete
+C:\Users\Zeynep İnan\Desktop\acikveriportal\acikveriportal\obj\Debug\acikveriportal.dll
+C:\Users\Zeynep İnan\Desktop\acikveriportal\acikveriportal\obj\Debug\acikveriportal.pdb
+C:\Users\Zeynep İnan\Desktop\acikveriportal\acikveriportal\obj\Debug\acikveriportal.csprojResolveAssemblyReference.cache
+C:\Users\melcicek\Desktop\AcikVeriPortali-master\acikveriportal\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\melcicek\Desktop\AcikVeriPortali-master\acikveriportal\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\melcicek\Desktop\AcikVeriPortali-master\acikveriportal\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\melcicek\Desktop\AcikVeriPortali-master\acikveriportal\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\melcicek\Desktop\AcikVeriPortali-master\acikveriportal\bin\roslyn\System.IO.Compression.dll
+C:\Users\melcicek\Desktop\AcikVeriPortali-master\acikveriportal\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\melcicek\Desktop\AcikVeriPortali-master\acikveriportal\bin\roslyn\VBCSCompiler.exe
+C:\Users\melcicek\Desktop\AcikVeriPortali-master\acikveriportal\obj\Debug\acikveriportal.csproj.CoreCompileInputs.cache
+C:\Users\melcicek\Desktop\AcikVeriPortali-master\acikveriportal\bin\acikveriportal.dll.config
+C:\Users\melcicek\Desktop\AcikVeriPortali-master\acikveriportal\bin\acikveriportal.dll
+C:\Users\melcicek\Desktop\AcikVeriPortali-master\acikveriportal\bin\acikveriportal.pdb
+C:\Users\melcicek\Desktop\AcikVeriPortali-master\acikveriportal\bin\roslyn\csc.exe
+C:\Users\melcicek\Desktop\AcikVeriPortali-master\acikveriportal\bin\roslyn\csc.exe.config
+C:\Users\melcicek\Desktop\AcikVeriPortali-master\acikveriportal\bin\roslyn\csc.rsp
+C:\Users\melcicek\Desktop\AcikVeriPortali-master\acikveriportal\bin\roslyn\csi.exe
+C:\Users\melcicek\Desktop\AcikVeriPortali-master\acikveriportal\bin\roslyn\csi.exe.config
+C:\Users\melcicek\Desktop\AcikVeriPortali-master\acikveriportal\bin\roslyn\csi.rsp
+C:\Users\melcicek\Desktop\AcikVeriPortali-master\acikveriportal\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\melcicek\Desktop\AcikVeriPortali-master\acikveriportal\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\melcicek\Desktop\AcikVeriPortali-master\acikveriportal\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\melcicek\Desktop\AcikVeriPortali-master\acikveriportal\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\melcicek\Desktop\AcikVeriPortali-master\acikveriportal\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\melcicek\Desktop\AcikVeriPortali-master\acikveriportal\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\melcicek\Desktop\AcikVeriPortali-master\acikveriportal\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\melcicek\Desktop\AcikVeriPortali-master\acikveriportal\bin\roslyn\System.AppContext.dll
+C:\Users\melcicek\Desktop\AcikVeriPortali-master\acikveriportal\bin\roslyn\System.Console.dll
+C:\Users\melcicek\Desktop\AcikVeriPortali-master\acikveriportal\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\melcicek\Desktop\AcikVeriPortali-master\acikveriportal\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\melcicek\Desktop\AcikVeriPortali-master\acikveriportal\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\melcicek\Desktop\AcikVeriPortali-master\acikveriportal\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\melcicek\Desktop\AcikVeriPortali-master\acikveriportal\bin\roslyn\System.IO.Pipes.dll
+C:\Users\melcicek\Desktop\AcikVeriPortali-master\acikveriportal\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\melcicek\Desktop\AcikVeriPortali-master\acikveriportal\bin\roslyn\System.Security.Claims.dll
+C:\Users\melcicek\Desktop\AcikVeriPortali-master\acikveriportal\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\melcicek\Desktop\AcikVeriPortali-master\acikveriportal\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\melcicek\Desktop\AcikVeriPortali-master\acikveriportal\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\melcicek\Desktop\AcikVeriPortali-master\acikveriportal\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\melcicek\Desktop\AcikVeriPortali-master\acikveriportal\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\melcicek\Desktop\AcikVeriPortali-master\acikveriportal\bin\roslyn\System.Threading.Thread.dll
+C:\Users\melcicek\Desktop\AcikVeriPortali-master\acikveriportal\bin\roslyn\System.ValueTuple.dll
+C:\Users\melcicek\Desktop\AcikVeriPortali-master\acikveriportal\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\melcicek\Desktop\AcikVeriPortali-master\acikveriportal\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\melcicek\Desktop\AcikVeriPortali-master\acikveriportal\bin\roslyn\System.Xml.XPath.dll
+C:\Users\melcicek\Desktop\AcikVeriPortali-master\acikveriportal\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\melcicek\Desktop\AcikVeriPortali-master\acikveriportal\bin\roslyn\vbc.exe
+C:\Users\melcicek\Desktop\AcikVeriPortali-master\acikveriportal\bin\roslyn\vbc.exe.config
+C:\Users\melcicek\Desktop\AcikVeriPortali-master\acikveriportal\bin\roslyn\vbc.rsp
+C:\Users\melcicek\Desktop\AcikVeriPortali-master\acikveriportal\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\melcicek\Desktop\AcikVeriPortali-master\acikveriportal\bin\EntityFramework.dll
+C:\Users\melcicek\Desktop\AcikVeriPortali-master\acikveriportal\bin\EntityFramework.SqlServer.dll
+C:\Users\melcicek\Desktop\AcikVeriPortali-master\acikveriportal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\melcicek\Desktop\AcikVeriPortali-master\acikveriportal\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\melcicek\Desktop\AcikVeriPortali-master\acikveriportal\bin\System.Web.Helpers.dll
+C:\Users\melcicek\Desktop\AcikVeriPortali-master\acikveriportal\bin\System.Web.Mvc.dll
+C:\Users\melcicek\Desktop\AcikVeriPortali-master\acikveriportal\bin\System.Web.Razor.dll
+C:\Users\melcicek\Desktop\AcikVeriPortali-master\acikveriportal\bin\System.Web.Webpages.Deployment.dll
+C:\Users\melcicek\Desktop\AcikVeriPortali-master\acikveriportal\bin\System.Web.Webpages.dll
+C:\Users\melcicek\Desktop\AcikVeriPortali-master\acikveriportal\bin\System.Web.Webpages.Razor.dll
+C:\Users\melcicek\Desktop\AcikVeriPortali-master\acikveriportal\bin\EntityFramework.xml
+C:\Users\melcicek\Desktop\AcikVeriPortali-master\acikveriportal\bin\EntityFramework.SqlServer.xml
+C:\Users\melcicek\Desktop\AcikVeriPortali-master\acikveriportal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\melcicek\Desktop\AcikVeriPortali-master\acikveriportal\bin\System.Web.Razor.xml
+C:\Users\melcicek\Desktop\AcikVeriPortali-master\acikveriportal\bin\System.Web.Webpages.xml
+C:\Users\melcicek\Desktop\AcikVeriPortali-master\acikveriportal\bin\System.Web.Webpages.Deployment.xml
+C:\Users\melcicek\Desktop\AcikVeriPortali-master\acikveriportal\bin\System.Web.Webpages.Razor.xml
+C:\Users\melcicek\Desktop\AcikVeriPortali-master\acikveriportal\bin\System.Web.Helpers.xml
+C:\Users\melcicek\Desktop\AcikVeriPortali-master\acikveriportal\bin\System.Web.Mvc.xml
+C:\Users\melcicek\Desktop\AcikVeriPortali-master\acikveriportal\bin\tr\System.Web.Razor.resources.dll
+C:\Users\melcicek\Desktop\AcikVeriPortali-master\acikveriportal\bin\tr\System.Web.Webpages.resources.dll
+C:\Users\melcicek\Desktop\AcikVeriPortali-master\acikveriportal\bin\tr\System.Web.Webpages.Deployment.resources.dll
+C:\Users\melcicek\Desktop\AcikVeriPortali-master\acikveriportal\bin\tr\System.Web.Webpages.Razor.resources.dll
+C:\Users\melcicek\Desktop\AcikVeriPortali-master\acikveriportal\bin\tr\System.Web.Helpers.resources.dll
+C:\Users\melcicek\Desktop\AcikVeriPortali-master\acikveriportal\bin\tr\System.Web.Mvc.resources.dll
+C:\Users\melcicek\Desktop\AcikVeriPortali-master\acikveriportal\obj\Debug\acikveriportal.csproj.CopyComplete
+C:\Users\melcicek\Desktop\AcikVeriPortali-master\acikveriportal\obj\Debug\acikveriportal.dll
+C:\Users\melcicek\Desktop\AcikVeriPortali-master\acikveriportal\obj\Debug\acikveriportal.pdb
+C:\Users\melcicek\Desktop\AcikVeriPortali-master\acikveriportal\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\melcicek\Desktop\AcikVeriPortali-master\acikveriportal\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\melcicek\Desktop\AcikVeriPortali-master\acikveriportal\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\melcicek\Desktop\AcikVeriPortali-master\acikveriportal\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\melcicek\Desktop\AcikVeriPortali-master\acikveriportal\bin\PagedList.dll
+C:\Users\melcicek\Desktop\AcikVeriPortali-master\acikveriportal\bin\PagedList.Mvc.dll
+C:\Users\melcicek\Desktop\AcikVeriPortali-master\acikveriportal\bin\PagedList.xml
+C:\Users\melcicek\Desktop\AcikVeriPortali-master\acikveriportal\bin\PagedList.Mvc.xml
+C:\Users\melcicek\Desktop\AcikVeriPortali-master\acikveriportal\obj\Debug\acikveriportal.csprojAssemblyReference.cache
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master\acikveriportal\bin\acikveriportal.dll.config
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master\acikveriportal\bin\acikveriportal.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master\acikveriportal\bin\acikveriportal.pdb
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master\acikveriportal\bin\roslyn\csc.exe
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master\acikveriportal\bin\roslyn\csc.exe.config
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master\acikveriportal\bin\roslyn\csc.rsp
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master\acikveriportal\bin\roslyn\csi.exe
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master\acikveriportal\bin\roslyn\csi.exe.config
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master\acikveriportal\bin\roslyn\csi.rsp
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master\acikveriportal\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master\acikveriportal\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master\acikveriportal\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master\acikveriportal\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master\acikveriportal\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master\acikveriportal\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master\acikveriportal\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master\acikveriportal\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master\acikveriportal\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master\acikveriportal\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master\acikveriportal\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master\acikveriportal\bin\roslyn\System.AppContext.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master\acikveriportal\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master\acikveriportal\bin\roslyn\System.Console.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master\acikveriportal\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master\acikveriportal\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master\acikveriportal\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master\acikveriportal\bin\roslyn\System.IO.Compression.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master\acikveriportal\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master\acikveriportal\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master\acikveriportal\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master\acikveriportal\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master\acikveriportal\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master\acikveriportal\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master\acikveriportal\bin\roslyn\System.Security.Claims.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master\acikveriportal\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master\acikveriportal\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master\acikveriportal\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master\acikveriportal\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master\acikveriportal\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master\acikveriportal\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master\acikveriportal\bin\roslyn\System.Threading.Thread.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master\acikveriportal\bin\roslyn\System.ValueTuple.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master\acikveriportal\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master\acikveriportal\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master\acikveriportal\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master\acikveriportal\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master\acikveriportal\bin\roslyn\vbc.exe
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master\acikveriportal\bin\roslyn\vbc.exe.config
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master\acikveriportal\bin\roslyn\vbc.rsp
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master\acikveriportal\bin\roslyn\VBCSCompiler.exe
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master\acikveriportal\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master\acikveriportal\bin\EntityFramework.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master\acikveriportal\bin\EntityFramework.SqlServer.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master\acikveriportal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master\acikveriportal\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master\acikveriportal\bin\PagedList.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master\acikveriportal\bin\PagedList.Mvc.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master\acikveriportal\bin\System.Web.Helpers.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master\acikveriportal\bin\System.Web.Mvc.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master\acikveriportal\bin\System.Web.Razor.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master\acikveriportal\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master\acikveriportal\bin\System.Web.Webpages.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master\acikveriportal\bin\System.Web.Webpages.Razor.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master\acikveriportal\bin\EntityFramework.xml
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master\acikveriportal\bin\EntityFramework.SqlServer.xml
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master\acikveriportal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master\acikveriportal\bin\PagedList.xml
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master\acikveriportal\bin\PagedList.Mvc.xml
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master\acikveriportal\bin\System.Web.Razor.xml
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master\acikveriportal\bin\System.Web.Webpages.xml
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master\acikveriportal\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master\acikveriportal\bin\System.Web.Webpages.Razor.xml
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master\acikveriportal\bin\System.Web.Helpers.xml
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master\acikveriportal\bin\System.Web.Mvc.xml
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master\acikveriportal\bin\tr\System.Web.Razor.resources.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master\acikveriportal\bin\tr\System.Web.Webpages.resources.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master\acikveriportal\bin\tr\System.Web.Webpages.Deployment.resources.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master\acikveriportal\bin\tr\System.Web.Webpages.Razor.resources.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master\acikveriportal\bin\tr\System.Web.Helpers.resources.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master\acikveriportal\bin\tr\System.Web.Mvc.resources.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master\acikveriportal\obj\Debug\acikveriportal.csprojResolveAssemblyReference.cache
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master\acikveriportal\obj\Debug\acikveriportal.csproj.CoreCompileInputs.cache
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master\acikveriportal\obj\Debug\acikveriportal.csproj.CopyComplete
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master\acikveriportal\obj\Debug\acikveriportal.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master\acikveriportal\obj\Debug\acikveriportal.pdb
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master - Kopya\acikveriportal\bin\acikveriportal.dll.config
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master - Kopya\acikveriportal\bin\acikveriportal.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master - Kopya\acikveriportal\bin\acikveriportal.pdb
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master - Kopya\acikveriportal\bin\roslyn\csc.exe
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master - Kopya\acikveriportal\bin\roslyn\csc.exe.config
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master - Kopya\acikveriportal\bin\roslyn\csc.rsp
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master - Kopya\acikveriportal\bin\roslyn\csi.exe
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master - Kopya\acikveriportal\bin\roslyn\csi.exe.config
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master - Kopya\acikveriportal\bin\roslyn\csi.rsp
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master - Kopya\acikveriportal\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master - Kopya\acikveriportal\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master - Kopya\acikveriportal\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master - Kopya\acikveriportal\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master - Kopya\acikveriportal\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master - Kopya\acikveriportal\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master - Kopya\acikveriportal\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master - Kopya\acikveriportal\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master - Kopya\acikveriportal\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master - Kopya\acikveriportal\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master - Kopya\acikveriportal\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master - Kopya\acikveriportal\bin\roslyn\System.AppContext.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master - Kopya\acikveriportal\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master - Kopya\acikveriportal\bin\roslyn\System.Console.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master - Kopya\acikveriportal\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master - Kopya\acikveriportal\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master - Kopya\acikveriportal\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master - Kopya\acikveriportal\bin\roslyn\System.IO.Compression.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master - Kopya\acikveriportal\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master - Kopya\acikveriportal\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master - Kopya\acikveriportal\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master - Kopya\acikveriportal\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master - Kopya\acikveriportal\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master - Kopya\acikveriportal\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master - Kopya\acikveriportal\bin\roslyn\System.Security.Claims.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master - Kopya\acikveriportal\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master - Kopya\acikveriportal\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master - Kopya\acikveriportal\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master - Kopya\acikveriportal\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master - Kopya\acikveriportal\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master - Kopya\acikveriportal\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master - Kopya\acikveriportal\bin\roslyn\System.Threading.Thread.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master - Kopya\acikveriportal\bin\roslyn\System.ValueTuple.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master - Kopya\acikveriportal\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master - Kopya\acikveriportal\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master - Kopya\acikveriportal\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master - Kopya\acikveriportal\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master - Kopya\acikveriportal\bin\roslyn\vbc.exe
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master - Kopya\acikveriportal\bin\roslyn\vbc.exe.config
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master - Kopya\acikveriportal\bin\roslyn\vbc.rsp
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master - Kopya\acikveriportal\bin\roslyn\VBCSCompiler.exe
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master - Kopya\acikveriportal\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master - Kopya\acikveriportal\bin\EntityFramework.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master - Kopya\acikveriportal\bin\EntityFramework.SqlServer.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master - Kopya\acikveriportal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master - Kopya\acikveriportal\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master - Kopya\acikveriportal\bin\PagedList.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master - Kopya\acikveriportal\bin\PagedList.Mvc.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master - Kopya\acikveriportal\bin\System.Web.Helpers.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master - Kopya\acikveriportal\bin\System.Web.Mvc.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master - Kopya\acikveriportal\bin\System.Web.Razor.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master - Kopya\acikveriportal\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master - Kopya\acikveriportal\bin\System.Web.Webpages.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master - Kopya\acikveriportal\bin\System.Web.Webpages.Razor.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master - Kopya\acikveriportal\bin\EntityFramework.xml
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master - Kopya\acikveriportal\bin\EntityFramework.SqlServer.xml
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master - Kopya\acikveriportal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master - Kopya\acikveriportal\bin\PagedList.xml
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master - Kopya\acikveriportal\bin\PagedList.Mvc.xml
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master - Kopya\acikveriportal\bin\System.Web.Razor.xml
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master - Kopya\acikveriportal\bin\System.Web.Webpages.xml
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master - Kopya\acikveriportal\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master - Kopya\acikveriportal\bin\System.Web.Webpages.Razor.xml
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master - Kopya\acikveriportal\bin\System.Web.Helpers.xml
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master - Kopya\acikveriportal\bin\System.Web.Mvc.xml
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master - Kopya\acikveriportal\bin\tr\System.Web.Razor.resources.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master - Kopya\acikveriportal\bin\tr\System.Web.Webpages.resources.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master - Kopya\acikveriportal\bin\tr\System.Web.Webpages.Deployment.resources.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master - Kopya\acikveriportal\bin\tr\System.Web.Webpages.Razor.resources.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master - Kopya\acikveriportal\bin\tr\System.Web.Helpers.resources.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master - Kopya\acikveriportal\bin\tr\System.Web.Mvc.resources.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master - Kopya\acikveriportal\obj\Debug\acikveriportal.csprojResolveAssemblyReference.cache
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master - Kopya\acikveriportal\obj\Debug\acikveriportal.csproj.CoreCompileInputs.cache
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master - Kopya\acikveriportal\obj\Debug\acikveriportal.csproj.CopyComplete
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master - Kopya\acikveriportal\obj\Debug\acikveriportal.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali-master - Kopya\acikveriportal\obj\Debug\acikveriportal.pdb
+C:\Users\Zeynep İnan\Desktop\açıkveriportal\AcikVeriPortali-master - Kopya\acikveriportal\bin\acikveriportal.dll.config
+C:\Users\Zeynep İnan\Desktop\açıkveriportal\AcikVeriPortali-master - Kopya\acikveriportal\bin\acikveriportal.dll
+C:\Users\Zeynep İnan\Desktop\açıkveriportal\AcikVeriPortali-master - Kopya\acikveriportal\bin\acikveriportal.pdb
+C:\Users\Zeynep İnan\Desktop\açıkveriportal\AcikVeriPortali-master - Kopya\acikveriportal\bin\roslyn\csc.exe
+C:\Users\Zeynep İnan\Desktop\açıkveriportal\AcikVeriPortali-master - Kopya\acikveriportal\bin\roslyn\csc.exe.config
+C:\Users\Zeynep İnan\Desktop\açıkveriportal\AcikVeriPortali-master - Kopya\acikveriportal\bin\roslyn\csc.rsp
+C:\Users\Zeynep İnan\Desktop\açıkveriportal\AcikVeriPortali-master - Kopya\acikveriportal\bin\roslyn\csi.exe
+C:\Users\Zeynep İnan\Desktop\açıkveriportal\AcikVeriPortali-master - Kopya\acikveriportal\bin\roslyn\csi.exe.config
+C:\Users\Zeynep İnan\Desktop\açıkveriportal\AcikVeriPortali-master - Kopya\acikveriportal\bin\roslyn\csi.rsp
+C:\Users\Zeynep İnan\Desktop\açıkveriportal\AcikVeriPortali-master - Kopya\acikveriportal\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Zeynep İnan\Desktop\açıkveriportal\AcikVeriPortali-master - Kopya\acikveriportal\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Zeynep İnan\Desktop\açıkveriportal\AcikVeriPortali-master - Kopya\acikveriportal\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Zeynep İnan\Desktop\açıkveriportal\AcikVeriPortali-master - Kopya\acikveriportal\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Zeynep İnan\Desktop\açıkveriportal\AcikVeriPortali-master - Kopya\acikveriportal\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Zeynep İnan\Desktop\açıkveriportal\AcikVeriPortali-master - Kopya\acikveriportal\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Zeynep İnan\Desktop\açıkveriportal\AcikVeriPortali-master - Kopya\acikveriportal\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Zeynep İnan\Desktop\açıkveriportal\AcikVeriPortali-master - Kopya\acikveriportal\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Zeynep İnan\Desktop\açıkveriportal\AcikVeriPortali-master - Kopya\acikveriportal\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Zeynep İnan\Desktop\açıkveriportal\AcikVeriPortali-master - Kopya\acikveriportal\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Zeynep İnan\Desktop\açıkveriportal\AcikVeriPortali-master - Kopya\acikveriportal\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Zeynep İnan\Desktop\açıkveriportal\AcikVeriPortali-master - Kopya\acikveriportal\bin\roslyn\System.AppContext.dll
+C:\Users\Zeynep İnan\Desktop\açıkveriportal\AcikVeriPortali-master - Kopya\acikveriportal\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Zeynep İnan\Desktop\açıkveriportal\AcikVeriPortali-master - Kopya\acikveriportal\bin\roslyn\System.Console.dll
+C:\Users\Zeynep İnan\Desktop\açıkveriportal\AcikVeriPortali-master - Kopya\acikveriportal\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Zeynep İnan\Desktop\açıkveriportal\AcikVeriPortali-master - Kopya\acikveriportal\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\Zeynep İnan\Desktop\açıkveriportal\AcikVeriPortali-master - Kopya\acikveriportal\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Zeynep İnan\Desktop\açıkveriportal\AcikVeriPortali-master - Kopya\acikveriportal\bin\roslyn\System.IO.Compression.dll
+C:\Users\Zeynep İnan\Desktop\açıkveriportal\AcikVeriPortali-master - Kopya\acikveriportal\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Zeynep İnan\Desktop\açıkveriportal\AcikVeriPortali-master - Kopya\acikveriportal\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\Zeynep İnan\Desktop\açıkveriportal\AcikVeriPortali-master - Kopya\acikveriportal\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Zeynep İnan\Desktop\açıkveriportal\AcikVeriPortali-master - Kopya\acikveriportal\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Zeynep İnan\Desktop\açıkveriportal\AcikVeriPortali-master - Kopya\acikveriportal\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Zeynep İnan\Desktop\açıkveriportal\AcikVeriPortali-master - Kopya\acikveriportal\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Zeynep İnan\Desktop\açıkveriportal\AcikVeriPortali-master - Kopya\acikveriportal\bin\roslyn\System.Security.Claims.dll
+C:\Users\Zeynep İnan\Desktop\açıkveriportal\AcikVeriPortali-master - Kopya\acikveriportal\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Zeynep İnan\Desktop\açıkveriportal\AcikVeriPortali-master - Kopya\acikveriportal\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Zeynep İnan\Desktop\açıkveriportal\AcikVeriPortali-master - Kopya\acikveriportal\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Zeynep İnan\Desktop\açıkveriportal\AcikVeriPortali-master - Kopya\acikveriportal\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Zeynep İnan\Desktop\açıkveriportal\AcikVeriPortali-master - Kopya\acikveriportal\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Zeynep İnan\Desktop\açıkveriportal\AcikVeriPortali-master - Kopya\acikveriportal\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Zeynep İnan\Desktop\açıkveriportal\AcikVeriPortali-master - Kopya\acikveriportal\bin\roslyn\System.Threading.Thread.dll
+C:\Users\Zeynep İnan\Desktop\açıkveriportal\AcikVeriPortali-master - Kopya\acikveriportal\bin\roslyn\System.ValueTuple.dll
+C:\Users\Zeynep İnan\Desktop\açıkveriportal\AcikVeriPortali-master - Kopya\acikveriportal\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Zeynep İnan\Desktop\açıkveriportal\AcikVeriPortali-master - Kopya\acikveriportal\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Zeynep İnan\Desktop\açıkveriportal\AcikVeriPortali-master - Kopya\acikveriportal\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Zeynep İnan\Desktop\açıkveriportal\AcikVeriPortali-master - Kopya\acikveriportal\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Zeynep İnan\Desktop\açıkveriportal\AcikVeriPortali-master - Kopya\acikveriportal\bin\roslyn\vbc.exe
+C:\Users\Zeynep İnan\Desktop\açıkveriportal\AcikVeriPortali-master - Kopya\acikveriportal\bin\roslyn\vbc.exe.config
+C:\Users\Zeynep İnan\Desktop\açıkveriportal\AcikVeriPortali-master - Kopya\acikveriportal\bin\roslyn\vbc.rsp
+C:\Users\Zeynep İnan\Desktop\açıkveriportal\AcikVeriPortali-master - Kopya\acikveriportal\bin\roslyn\VBCSCompiler.exe
+C:\Users\Zeynep İnan\Desktop\açıkveriportal\AcikVeriPortali-master - Kopya\acikveriportal\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Zeynep İnan\Desktop\açıkveriportal\AcikVeriPortali-master - Kopya\acikveriportal\bin\EntityFramework.dll
+C:\Users\Zeynep İnan\Desktop\açıkveriportal\AcikVeriPortali-master - Kopya\acikveriportal\bin\EntityFramework.SqlServer.dll
+C:\Users\Zeynep İnan\Desktop\açıkveriportal\AcikVeriPortali-master - Kopya\acikveriportal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Zeynep İnan\Desktop\açıkveriportal\AcikVeriPortali-master - Kopya\acikveriportal\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Zeynep İnan\Desktop\açıkveriportal\AcikVeriPortali-master - Kopya\acikveriportal\bin\PagedList.dll
+C:\Users\Zeynep İnan\Desktop\açıkveriportal\AcikVeriPortali-master - Kopya\acikveriportal\bin\PagedList.Mvc.dll
+C:\Users\Zeynep İnan\Desktop\açıkveriportal\AcikVeriPortali-master - Kopya\acikveriportal\bin\System.Web.Helpers.dll
+C:\Users\Zeynep İnan\Desktop\açıkveriportal\AcikVeriPortali-master - Kopya\acikveriportal\bin\System.Web.Mvc.dll
+C:\Users\Zeynep İnan\Desktop\açıkveriportal\AcikVeriPortali-master - Kopya\acikveriportal\bin\System.Web.Razor.dll
+C:\Users\Zeynep İnan\Desktop\açıkveriportal\AcikVeriPortali-master - Kopya\acikveriportal\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Zeynep İnan\Desktop\açıkveriportal\AcikVeriPortali-master - Kopya\acikveriportal\bin\System.Web.Webpages.dll
+C:\Users\Zeynep İnan\Desktop\açıkveriportal\AcikVeriPortali-master - Kopya\acikveriportal\bin\System.Web.Webpages.Razor.dll
+C:\Users\Zeynep İnan\Desktop\açıkveriportal\AcikVeriPortali-master - Kopya\acikveriportal\bin\EntityFramework.xml
+C:\Users\Zeynep İnan\Desktop\açıkveriportal\AcikVeriPortali-master - Kopya\acikveriportal\bin\EntityFramework.SqlServer.xml
+C:\Users\Zeynep İnan\Desktop\açıkveriportal\AcikVeriPortali-master - Kopya\acikveriportal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Zeynep İnan\Desktop\açıkveriportal\AcikVeriPortali-master - Kopya\acikveriportal\bin\PagedList.xml
+C:\Users\Zeynep İnan\Desktop\açıkveriportal\AcikVeriPortali-master - Kopya\acikveriportal\bin\PagedList.Mvc.xml
+C:\Users\Zeynep İnan\Desktop\açıkveriportal\AcikVeriPortali-master - Kopya\acikveriportal\bin\System.Web.Razor.xml
+C:\Users\Zeynep İnan\Desktop\açıkveriportal\AcikVeriPortali-master - Kopya\acikveriportal\bin\System.Web.Webpages.xml
+C:\Users\Zeynep İnan\Desktop\açıkveriportal\AcikVeriPortali-master - Kopya\acikveriportal\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Zeynep İnan\Desktop\açıkveriportal\AcikVeriPortali-master - Kopya\acikveriportal\bin\System.Web.Webpages.Razor.xml
+C:\Users\Zeynep İnan\Desktop\açıkveriportal\AcikVeriPortali-master - Kopya\acikveriportal\bin\System.Web.Helpers.xml
+C:\Users\Zeynep İnan\Desktop\açıkveriportal\AcikVeriPortali-master - Kopya\acikveriportal\bin\System.Web.Mvc.xml
+C:\Users\Zeynep İnan\Desktop\açıkveriportal\AcikVeriPortali-master - Kopya\acikveriportal\bin\tr\System.Web.Razor.resources.dll
+C:\Users\Zeynep İnan\Desktop\açıkveriportal\AcikVeriPortali-master - Kopya\acikveriportal\bin\tr\System.Web.Webpages.resources.dll
+C:\Users\Zeynep İnan\Desktop\açıkveriportal\AcikVeriPortali-master - Kopya\acikveriportal\bin\tr\System.Web.Webpages.Deployment.resources.dll
+C:\Users\Zeynep İnan\Desktop\açıkveriportal\AcikVeriPortali-master - Kopya\acikveriportal\bin\tr\System.Web.Webpages.Razor.resources.dll
+C:\Users\Zeynep İnan\Desktop\açıkveriportal\AcikVeriPortali-master - Kopya\acikveriportal\bin\tr\System.Web.Helpers.resources.dll
+C:\Users\Zeynep İnan\Desktop\açıkveriportal\AcikVeriPortali-master - Kopya\acikveriportal\bin\tr\System.Web.Mvc.resources.dll
+C:\Users\Zeynep İnan\Desktop\açıkveriportal\AcikVeriPortali-master - Kopya\acikveriportal\obj\Debug\acikveriportal.csprojResolveAssemblyReference.cache
+C:\Users\Zeynep İnan\Desktop\açıkveriportal\AcikVeriPortali-master - Kopya\acikveriportal\obj\Debug\acikveriportal.csproj.CoreCompileInputs.cache
+C:\Users\Zeynep İnan\Desktop\açıkveriportal\AcikVeriPortali-master - Kopya\acikveriportal\obj\Debug\acikveriportal.csproj.CopyComplete
+C:\Users\Zeynep İnan\Desktop\açıkveriportal\AcikVeriPortali-master - Kopya\acikveriportal\obj\Debug\acikveriportal.dll
+C:\Users\Zeynep İnan\Desktop\açıkveriportal\AcikVeriPortali-master - Kopya\acikveriportal\obj\Debug\acikveriportal.pdb
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali\acikveriportal\bin\acikveriportal.dll.config
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali\acikveriportal\bin\acikveriportal.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali\acikveriportal\bin\acikveriportal.pdb
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali\acikveriportal\bin\roslyn\csc.exe
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali\acikveriportal\bin\roslyn\csc.exe.config
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali\acikveriportal\bin\roslyn\csc.rsp
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali\acikveriportal\bin\roslyn\csi.exe
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali\acikveriportal\bin\roslyn\csi.exe.config
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali\acikveriportal\bin\roslyn\csi.rsp
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali\acikveriportal\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali\acikveriportal\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali\acikveriportal\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali\acikveriportal\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali\acikveriportal\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali\acikveriportal\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali\acikveriportal\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali\acikveriportal\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali\acikveriportal\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali\acikveriportal\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali\acikveriportal\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali\acikveriportal\bin\roslyn\System.AppContext.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali\acikveriportal\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali\acikveriportal\bin\roslyn\System.Console.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali\acikveriportal\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali\acikveriportal\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali\acikveriportal\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali\acikveriportal\bin\roslyn\System.IO.Compression.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali\acikveriportal\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali\acikveriportal\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali\acikveriportal\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali\acikveriportal\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali\acikveriportal\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali\acikveriportal\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali\acikveriportal\bin\roslyn\System.Security.Claims.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali\acikveriportal\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali\acikveriportal\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali\acikveriportal\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali\acikveriportal\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali\acikveriportal\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali\acikveriportal\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali\acikveriportal\bin\roslyn\System.Threading.Thread.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali\acikveriportal\bin\roslyn\System.ValueTuple.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali\acikveriportal\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali\acikveriportal\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali\acikveriportal\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali\acikveriportal\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali\acikveriportal\bin\roslyn\vbc.exe
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali\acikveriportal\bin\roslyn\vbc.exe.config
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali\acikveriportal\bin\roslyn\vbc.rsp
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali\acikveriportal\bin\roslyn\VBCSCompiler.exe
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali\acikveriportal\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali\acikveriportal\bin\EntityFramework.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali\acikveriportal\bin\EntityFramework.SqlServer.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali\acikveriportal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali\acikveriportal\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali\acikveriportal\bin\PagedList.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali\acikveriportal\bin\PagedList.Mvc.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali\acikveriportal\bin\System.Web.Helpers.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali\acikveriportal\bin\System.Web.Mvc.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali\acikveriportal\bin\System.Web.Razor.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali\acikveriportal\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali\acikveriportal\bin\System.Web.Webpages.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali\acikveriportal\bin\System.Web.Webpages.Razor.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali\acikveriportal\bin\EntityFramework.xml
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali\acikveriportal\bin\EntityFramework.SqlServer.xml
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali\acikveriportal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali\acikveriportal\bin\PagedList.xml
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali\acikveriportal\bin\PagedList.Mvc.xml
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali\acikveriportal\bin\System.Web.Razor.xml
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali\acikveriportal\bin\System.Web.Webpages.xml
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali\acikveriportal\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali\acikveriportal\bin\System.Web.Webpages.Razor.xml
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali\acikveriportal\bin\System.Web.Helpers.xml
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali\acikveriportal\bin\System.Web.Mvc.xml
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali\acikveriportal\bin\tr\System.Web.Razor.resources.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali\acikveriportal\bin\tr\System.Web.Webpages.resources.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali\acikveriportal\bin\tr\System.Web.Webpages.Deployment.resources.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali\acikveriportal\bin\tr\System.Web.Webpages.Razor.resources.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali\acikveriportal\bin\tr\System.Web.Helpers.resources.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali\acikveriportal\bin\tr\System.Web.Mvc.resources.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali\acikveriportal\obj\Debug\acikveriportal.csprojAssemblyReference.cache
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali\acikveriportal\obj\Debug\acikveriportal.csproj.CoreCompileInputs.cache
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali\acikveriportal\obj\Debug\acikveriportal.csproj.CopyComplete
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali\acikveriportal\obj\Debug\acikveriportal.dll
+C:\Users\Zeynep İnan\Desktop\AcikVeriPortali\acikveriportal\obj\Debug\acikveriportal.pdb

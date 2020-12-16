@@ -1,0 +1,49 @@
+﻿
+@{
+    ViewBag.Title = "EditDataRequest";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@using acikveriportal.Models
+@model DataRequest
+
+
+<body>
+
+    <input type="button" class="btn btn-success" value="Veri istek Listesi" onclick="location.href='@Url.Action("AllDataRequest", "Dashboard")'" />
+    <section>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    @using (Html.BeginForm("DataRequestEdited", "Dashboard", FormMethod.Post, new { enctype = "multipart/form-data" }))
+                    {
+                        @Html.HiddenFor(n => n.Id)
+                        <div class="form-group">
+                            @Html.LabelFor(n => n.Title)
+                            @Html.TextBoxFor(n => n.Title, new { @class = "form-control" })
+                            @Html.ValidationMessageFor(n => n.Title, "", new { @class = "text-danger" })
+                        </div>
+                        <div class="form-group">
+                            @Html.LabelFor(n => n.Description)
+                            @Html.TextBoxFor(n => n.Description, new { @class = "form-control" })
+                            @Html.ValidationMessageFor(n => n.Description, "", new { @class = "text-danger" })
+                        </div>
+
+
+                        <div class="form-group">
+                            @Html.LabelFor(n => n.StatusId)
+                            @Html.DropDownListFor(n => n.StatusId, new SelectList(ViewBag.Statuses, "Id", "Name"), "Statü Seç..", new { @class = "form-control" })
+                            @Html.ValidationMessageFor(n => n.StatusId, "", new { @class = "text-danger" })
+                        </div>
+
+                        <button type="submit" class="btn btn-success">Kaydet</button>
+                    }
+
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+

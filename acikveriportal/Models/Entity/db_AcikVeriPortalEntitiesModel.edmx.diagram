@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="7cfad58ace6d46839398b7a380946089" Name="Diagram1" ZoomLevel="77">
+        <EntityTypeShape EntityType="db_AcikVeriPortalModel.Users" Width="1.5" PointX="6.75" PointY="0.75" />
+        <EntityTypeShape EntityType="db_AcikVeriPortalModel.Organizations" Width="1.5" PointX="5.375" PointY="3.75" />
+        <EntityTypeShape EntityType="db_AcikVeriPortalModel.Categories" Width="1.5" PointX="0.75" PointY="4.75" />
+        <EntityTypeShape EntityType="db_AcikVeriPortalModel.Formats" Width="1.5" PointX="2.75" PointY="4.75" />
+        <EntityTypeShape EntityType="db_AcikVeriPortalModel.Labels" Width="1.5" PointX="4.75" PointY="6.75" />
+        <EntityTypeShape EntityType="db_AcikVeriPortalModel.Licenses" Width="1.5" PointX="6.75" PointY="6.75" />
+        <EntityTypeShape EntityType="db_AcikVeriPortalModel.Status" Width="1.5" PointX="0.75" PointY="7.75" />
+        <EntityTypeShape EntityType="db_AcikVeriPortalModel.DataRequests" Width="1.5" PointX="3" PointY="9.5" />
+        <EntityTypeShape EntityType="db_AcikVeriPortalModel.DataSetFileDetail" Width="1.5" PointX="11.625" PointY="1.25" />
+        <AssociationConnector Association="db_AcikVeriPortalModel.FK_DataRequests_StatusId" />
+        <EntityTypeShape EntityType="db_AcikVeriPortalModel.DataSets" Width="1.5" PointX="9.375" PointY="3.5" />
+        <AssociationConnector Association="db_AcikVeriPortalModel.FK_DataSets_CategoryId" />
+        <AssociationConnector Association="db_AcikVeriPortalModel.FK_DataSetFileDetail_DataSetId" />
+        <AssociationConnector Association="db_AcikVeriPortalModel.FK_DataSets_FormatId" />
+        <AssociationConnector Association="db_AcikVeriPortalModel.FK_DataSets_LabelId" />
+        <AssociationConnector Association="db_AcikVeriPortalModel.FK_DataSets_LicenseId" />
+        <AssociationConnector Association="db_AcikVeriPortalModel.FK_DataSets_OrganizationId" />
+        <EntityTypeShape EntityType="db_AcikVeriPortalModel.admin" Width="1.5" PointX="2.375" PointY="0.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

@@ -1,0 +1,161 @@
+﻿
+@{ ViewBag.Title = "announcements";
+                Layout = "~/Views/Shared/_MainLayout.cshtml"; }
+
+
+<!doctype html>
+<html>
+<head>
+    <style>
+        .dropbtn {
+            background-color: #4CAF50;
+            color: white;
+            padding: 16px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+            .dropdown-content a {
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+            }
+
+                .dropdown-content a:hover {
+                    background-color: #f1f1f1
+                }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .dropdown:hover .dropbtn {
+            background-color: #3e8e41;
+        }
+    </style>
+    <style type="text/css">
+        .category_block {
+            background: none repeat scroll 0 0 #E0FFFF;
+            border-radius: 10px 10px 10px 10px;
+            margin: 0 0 15px;
+            padding: 15px;
+            width: 300px;
+            margin-top: 100px;
+            margin-bottom: 100px;
+            margin-right: 150px;
+            margin-left: 80px;
+            height: auto;
+        }
+
+
+        .clear {
+            clear: both;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+    <style>
+
+        .center {
+            margin-left: 500px;
+            margin-right: 50px;
+            margin-top: 50px;
+            margin-bottom: 100px;
+            width: 60%;
+            background-color: #F8F8FF;
+            height: auto;
+        }
+
+        #kutu1 {
+            background-color: #E0FFFF;
+            height: 100px;
+            width: 800px;
+            margin: 5px auto;
+        }
+    </style>
+   
+
+
+</head>
+<body>
+    <section>
+        <div class="category_block">
+
+            <div class="list-group">
+                <button type="button" class="list-group-item list-group-item-action active">
+                 
+                </button>
+                <button type="button" class="list-group-item list-group-item-action" disabled>Duyuru Menüsü</button>
+                <button type="button" class="list-group-item list-group-item-action">Güncel Bilgiler</button>
+                <button type="button" class="list-group-item list-group-item-action">Son Güncellenen Veri Setleri</button>
+                <button type="button" class="list-group-item list-group-item-action">Toplam Veri Seti Sayısı</button>
+                <button type="button" class="list-group-item list-group-item-action">En Çok Oylanan Veri Setleri</button>
+                <button type="button" class="list-group-item list-group-item-action">En Çok Düzenlenen Veri Kümeleri</button>
+            </div>
+        </div>
+    </section>
+
+    <article>
+
+
+        <div class="center">
+
+            
+
+               
+
+                    <div id="kutu1"></div>
+                    <div id="kutu1"></div>
+                    <div id="kutu1"></div>
+                    <div id="kutu1"></div>
+                    <div id="kutu1"></div>
+                    <div id="kutu1"></div>
+               
+
+
+
+
+           
+
+
+        </div>
+    </article>
+
+
+
+    <div style='clear: both' />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+
+

@@ -1,0 +1,145 @@
+﻿
+@{ Layout = null; }
+
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css" />
+    <script src="~/Scripts/modernizr-2.6.2.js"></script>
+    <title>Gölcük Açık Veri Portalı</title>
+    <style>
+        .bg-blue {
+            background-color: #101353;
+        }
+
+        #list {
+            font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+            #list td, #list th {
+                border: 1px solid #ddd;
+                padding: 8px;
+            }
+
+            #list tr:nth-child(even) {
+                background-color: #f2f2f2;
+            }
+
+            #list tr:hover {
+                background-color: #ddd;
+            }
+
+            #list th {
+                padding-top: 12px;
+                padding-bottom: 12px;
+                text-align: left;
+                background-color: #4CAF50;
+                color: white;
+            }
+
+        #myInput {
+            background-image: url('../../imagess/searchicon.png');
+            background-position: 10px 10px;
+            background-repeat: no-repeat;
+            width: 100%;
+            font-size: 16px;
+            padding: 12px 20px 12px 40px;
+            border: 1px solid #ddd;
+            margin-bottom: 12px;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-dark  bg-blue navbar-expand-lg text-white sticky-top">
+
+        <div class="">
+            <a href="https://www.golcuk.bel.tr/" class="navbar-brand"><img src="~/imagess/indir.jpg" /> </a>
+            <a style="margin-left:110px; margin-top:-130px; font-size:30px;" href="/Home/Index" class="nav-link text-white">Gölcük<br />Açık<br /> Veri Portalı </a>
+            <button class="navbar-toggler" style="margin-left:70px;" data-toggle="collapse" data-target="#navbar-acikveriportali" aria-controls="navbar-acikveriportali">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbar-acikveriportali">
+                <ul class="navbar-nav mr-auto" style="margin-left:360px; margin-top:-50px;">
+                    <li class="nav-item px-3"><a href="/Dashboard/All" class="nav-link">Veri Setleri</a></li>
+                    <li class="nav-item px-3"><a href="/Dashboard/AllOrganization" class="nav-link">Organizasyonlar</a></li>
+                    <li class="nav-item px-3"><a href="/Dashboard/AllCategory" class="nav-link">Kategoriler</a></li>
+                    <li class="nav-item px-3"><a href="/Dashboard/AllLabel" class="nav-link">Etiketler</a></li>
+                    <li class="nav-item px-3"><a href="/Dashboard/AllFormat" class="nav-link">Formatlar</a></li>
+                    <li class="nav-item px-3"><a href="/Dashboard/AllLicense" class="nav-link">Lisanslar</a></li>
+                    <li class="nav-item px-3"><a href="/Dashboard/AllDataRequest" class="nav-link">Veri İstekleri</a></li>
+                    <li class="nav-item px-3"><a href="/Dashboard/Logout" class="nav-link">Çıkış Yap</a></li>
+                </ul>
+
+            </div>
+        </div>
+
+
+
+    </nav>
+    <div class="">
+        @RenderBody()
+    </div>
+
+
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    @RenderSection("scripts", required: false)
+    <script>
+        function myFunction() {
+            var input, filter, table, tr, td, i, txtValue;
+            input = document.getElementById("myInput");
+            filter = input.value.toUpperCase();
+            table = document.getElementById("list");
+            tr = table.getElementsByTagName("tr");
+            for (i = 0; i < tr.length; i++) {
+                td = tr[i].getElementsByTagName("td")[0];
+                if (td) {
+                    txtValue = td.textContent || td.innerText;
+                    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                        tr[i].style.display = "";
+                    } else {
+                        tr[i].style.display = "none";
+                    }
+                }
+            }
+        }
+    </script>
+
+    <footer class="bg-blue  py-5" style="height:250px; ">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7"></div>
+
+
+                <div class="col-md-5 text-white " style="color:white;  margin-top:0px; margin-left:950px;">
+                    <div class="menu-about ml-5 ">
+
+                        <a href="" style="color:white;">Hakkında</a><br />
+                        <a href="" style="color:white;">Lisans</a><br />
+                        <a href="" style="color:white;">Kullanım Koşulları</a><br />
+                        <a href="" style="color:white;">Gizlilik Politikası</a>
+                    </div><br /><br />
+                    <a href="https://www.facebook.com/golcuk.belediyesi.3" style="color:white;"><i class="fa fa-facebook fa-2x ml-4 " aria-hidden="true"></i></a>
+                    <a href="https://twitter.com/golcukbld" style="color:white;"><i class="fa fa-twitter fa-2x ml-4" aria-hidden="true"></i></a>
+                    <a href="https://www.flickr.com/photos/golcuk/" style="color:white;"><i class="fa fa-flickr fa-2x ml-4" aria-hidden="true"></i></a>
+                    <a href="https://www.linkedin.com/company/g-lc-k-belediyesi" style="color:white;"><i class="fa fa-linkedin fa-2x ml-4" aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

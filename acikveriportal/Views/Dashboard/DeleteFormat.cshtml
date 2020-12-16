@@ -1,0 +1,18 @@
+﻿
+@{
+    ViewBag.Title = "DeleteFormat";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+@using acikveriportal.Models
+@model Format
+
+
+<div class="text-center">
+    <h2 class="text-danger">Silinmek istenen kayıt: @Model.Name</h2>
+    <h3>Bu kaydı silmek istediğinize emin misiniz ?</h3>
+</div>
+
+<input type="button" class="btn btn-info" value="İptal" onclick="location.href='@Url.Action("AllFormat", "Dashboard")'" />
+<input type="button" class="btn btn-danger" value="Sil" onclick="location.href='@Url.Action("FormatDeleted", "Dashboard", new { @id = $"{Model.Id}" }, null)'" />

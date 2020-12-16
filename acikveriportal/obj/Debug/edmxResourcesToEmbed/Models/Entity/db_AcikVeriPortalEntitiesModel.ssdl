@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="db_AcikVeriPortalModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="admin">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="email" Type="nvarchar" MaxLength="200" Nullable="false" />
+    <Property Name="sifre" Type="nvarchar" MaxLength="200" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Categories">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="DataRequests">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="StatusId" Type="int" Nullable="false" />
+    <Property Name="Title" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Description" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="DataSetFileDetail">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FileName" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Extension" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="DataSetId" Type="int" Nullable="false" />
+    <Property Name="FileDataId" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="DataSets">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Title" Type="nvarchar(max)" />
+    <Property Name="Description" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="CategoryId" Type="int" Nullable="false" />
+    <Property Name="OrganizationId" Type="int" Nullable="false" />
+    <Property Name="FormatId" Type="int" Nullable="false" />
+    <Property Name="LicenseId" Type="int" Nullable="false" />
+    <Property Name="LabelId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Formats">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Labels">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Licenses">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Organizations">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Status">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Ad" Type="nvarchar" MaxLength="200" Nullable="false" />
+    <Property Name="Soyad" Type="nvarchar" MaxLength="200" Nullable="false" />
+    <Property Name="EPosta" Type="nvarchar" MaxLength="200" Nullable="false" />
+    <Property Name="Sifre" Type="nvarchar" MaxLength="200" Nullable="false" />
+    <Property Name="OlusturulmaTarihi" Type="datetime" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_DataRequests_StatusId">
+    <End Role="Status" Type="Self.Status" Multiplicity="1" />
+    <End Role="DataRequests" Type="Self.DataRequests" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Status">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="DataRequests">
+        <PropertyRef Name="StatusId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DataSetFileDetail_DataSetId">
+    <End Role="DataSets" Type="Self.DataSets" Multiplicity="1" />
+    <End Role="DataSetFileDetail" Type="Self.DataSetFileDetail" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DataSets">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="DataSetFileDetail">
+        <PropertyRef Name="DataSetId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DataSets_CategoryId">
+    <End Role="Categories" Type="Self.Categories" Multiplicity="1" />
+    <End Role="DataSets" Type="Self.DataSets" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Categories">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="DataSets">
+        <PropertyRef Name="CategoryId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DataSets_FormatId">
+    <End Role="Formats" Type="Self.Formats" Multiplicity="1" />
+    <End Role="DataSets" Type="Self.DataSets" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Formats">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="DataSets">
+        <PropertyRef Name="FormatId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DataSets_LabelId">
+    <End Role="Labels" Type="Self.Labels" Multiplicity="1" />
+    <End Role="DataSets" Type="Self.DataSets" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Labels">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="DataSets">
+        <PropertyRef Name="LabelId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DataSets_LicenseId">
+    <End Role="Licenses" Type="Self.Licenses" Multiplicity="1" />
+    <End Role="DataSets" Type="Self.DataSets" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Licenses">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="DataSets">
+        <PropertyRef Name="LicenseId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DataSets_OrganizationId">
+    <End Role="Organizations" Type="Self.Organizations" Multiplicity="1" />
+    <End Role="DataSets" Type="Self.DataSets" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Organizations">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="DataSets">
+        <PropertyRef Name="OrganizationId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="db_AcikVeriPortalModelStoreContainer">
+    <EntitySet Name="admin" EntityType="Self.admin" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Categories" EntityType="Self.Categories" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="DataRequests" EntityType="Self.DataRequests" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="DataSetFileDetail" EntityType="Self.DataSetFileDetail" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="DataSets" EntityType="Self.DataSets" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Formats" EntityType="Self.Formats" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Labels" EntityType="Self.Labels" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Licenses" EntityType="Self.Licenses" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Organizations" EntityType="Self.Organizations" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Status" EntityType="Self.Status" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Users" EntityType="Self.Users" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_DataRequests_StatusId" Association="Self.FK_DataRequests_StatusId">
+      <End Role="Status" EntitySet="Status" />
+      <End Role="DataRequests" EntitySet="DataRequests" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DataSetFileDetail_DataSetId" Association="Self.FK_DataSetFileDetail_DataSetId">
+      <End Role="DataSets" EntitySet="DataSets" />
+      <End Role="DataSetFileDetail" EntitySet="DataSetFileDetail" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DataSets_CategoryId" Association="Self.FK_DataSets_CategoryId">
+      <End Role="Categories" EntitySet="Categories" />
+      <End Role="DataSets" EntitySet="DataSets" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DataSets_FormatId" Association="Self.FK_DataSets_FormatId">
+      <End Role="Formats" EntitySet="Formats" />
+      <End Role="DataSets" EntitySet="DataSets" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DataSets_LabelId" Association="Self.FK_DataSets_LabelId">
+      <End Role="Labels" EntitySet="Labels" />
+      <End Role="DataSets" EntitySet="DataSets" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DataSets_LicenseId" Association="Self.FK_DataSets_LicenseId">
+      <End Role="Licenses" EntitySet="Licenses" />
+      <End Role="DataSets" EntitySet="DataSets" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DataSets_OrganizationId" Association="Self.FK_DataSets_OrganizationId">
+      <End Role="Organizations" EntitySet="Organizations" />
+      <End Role="DataSets" EntitySet="DataSets" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

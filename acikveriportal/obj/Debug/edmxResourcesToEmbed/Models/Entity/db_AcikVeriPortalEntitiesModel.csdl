@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="db_AcikVeriPortalModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="db_AcikVeriPortalEntities01" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Users" EntityType="db_AcikVeriPortalModel.Users" />
+    <EntitySet Name="Organizations" EntityType="db_AcikVeriPortalModel.Organizations" />
+    <EntitySet Name="Categories" EntityType="db_AcikVeriPortalModel.Categories" />
+    <EntitySet Name="Formats" EntityType="db_AcikVeriPortalModel.Formats" />
+    <EntitySet Name="Labels" EntityType="db_AcikVeriPortalModel.Labels" />
+    <EntitySet Name="Licenses" EntityType="db_AcikVeriPortalModel.Licenses" />
+    <EntitySet Name="Status" EntityType="db_AcikVeriPortalModel.Status" />
+    <EntitySet Name="DataRequests" EntityType="db_AcikVeriPortalModel.DataRequests" />
+    <EntitySet Name="DataSetFileDetail" EntityType="db_AcikVeriPortalModel.DataSetFileDetail" />
+    <AssociationSet Name="FK_DataRequests_StatusId" Association="db_AcikVeriPortalModel.FK_DataRequests_StatusId">
+      <End Role="Status" EntitySet="Status" />
+      <End Role="DataRequests" EntitySet="DataRequests" />
+    </AssociationSet>
+    <EntitySet Name="DataSets" EntityType="db_AcikVeriPortalModel.DataSets" />
+    <AssociationSet Name="FK_DataSets_CategoryId" Association="db_AcikVeriPortalModel.FK_DataSets_CategoryId">
+      <End Role="Categories" EntitySet="Categories" />
+      <End Role="DataSets" EntitySet="DataSets" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DataSetFileDetail_DataSetId" Association="db_AcikVeriPortalModel.FK_DataSetFileDetail_DataSetId">
+      <End Role="DataSets" EntitySet="DataSets" />
+      <End Role="DataSetFileDetail" EntitySet="DataSetFileDetail" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DataSets_FormatId" Association="db_AcikVeriPortalModel.FK_DataSets_FormatId">
+      <End Role="Formats" EntitySet="Formats" />
+      <End Role="DataSets" EntitySet="DataSets" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DataSets_LabelId" Association="db_AcikVeriPortalModel.FK_DataSets_LabelId">
+      <End Role="Labels" EntitySet="Labels" />
+      <End Role="DataSets" EntitySet="DataSets" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DataSets_LicenseId" Association="db_AcikVeriPortalModel.FK_DataSets_LicenseId">
+      <End Role="Licenses" EntitySet="Licenses" />
+      <End Role="DataSets" EntitySet="DataSets" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DataSets_OrganizationId" Association="db_AcikVeriPortalModel.FK_DataSets_OrganizationId">
+      <End Role="Organizations" EntitySet="Organizations" />
+      <End Role="DataSets" EntitySet="DataSets" />
+    </AssociationSet>
+    <EntitySet Name="admin" EntityType="db_AcikVeriPortalModel.admin" />
+  </EntityContainer>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Ad" Type="String" Nullable="false" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="Soyad" Type="String" Nullable="false" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="EPosta" Type="String" Nullable="false" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="Sifre" Type="String" Nullable="false" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="OlusturulmaTarihi" Type="DateTime" Nullable="false" Precision="3" />
+  </EntityType>
+  <EntityType Name="Organizations">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="DataSets" Relationship="db_AcikVeriPortalModel.FK_DataSets_OrganizationId" FromRole="Organizations" ToRole="DataSets" />
+  </EntityType>
+  <EntityType Name="Categories">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="DataSets" Relationship="db_AcikVeriPortalModel.FK_DataSets_CategoryId" FromRole="Categories" ToRole="DataSets" />
+  </EntityType>
+  <EntityType Name="Formats">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="DataSets" Relationship="db_AcikVeriPortalModel.FK_DataSets_FormatId" FromRole="Formats" ToRole="DataSets" />
+  </EntityType>
+  <EntityType Name="Labels">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="DataSets" Relationship="db_AcikVeriPortalModel.FK_DataSets_LabelId" FromRole="Labels" ToRole="DataSets" />
+  </EntityType>
+  <EntityType Name="Licenses">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="DataSets" Relationship="db_AcikVeriPortalModel.FK_DataSets_LicenseId" FromRole="Licenses" ToRole="DataSets" />
+  </EntityType>
+  <EntityType Name="Status">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="DataRequests" Relationship="db_AcikVeriPortalModel.FK_DataRequests_StatusId" FromRole="Status" ToRole="DataRequests" />
+  </EntityType>
+  <EntityType Name="DataRequests">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="StatusId" Type="Int32" Nullable="false" />
+    <Property Name="Title" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Description" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Status" Relationship="db_AcikVeriPortalModel.FK_DataRequests_StatusId" FromRole="DataRequests" ToRole="Status" />
+  </EntityType>
+  <EntityType Name="DataSetFileDetail">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FileName" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Extension" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="DataSetId" Type="Int32" Nullable="false" />
+    <Property Name="FileDataId" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="DataSets" Relationship="db_AcikVeriPortalModel.FK_DataSetFileDetail_DataSetId" FromRole="DataSetFileDetail" ToRole="DataSets" />
+  </EntityType>
+  <Association Name="FK_DataRequests_StatusId">
+    <End Type="db_AcikVeriPortalModel.Status" Role="Status" Multiplicity="1" />
+    <End Type="db_AcikVeriPortalModel.DataRequests" Role="DataRequests" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Status">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="DataRequests">
+        <PropertyRef Name="StatusId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="DataSets">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Title" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Description" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="CategoryId" Type="Int32" Nullable="false" />
+    <Property Name="OrganizationId" Type="Int32" Nullable="false" />
+    <Property Name="FormatId" Type="Int32" Nullable="false" />
+    <Property Name="LicenseId" Type="Int32" Nullable="false" />
+    <Property Name="LabelId" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Categories" Relationship="db_AcikVeriPortalModel.FK_DataSets_CategoryId" FromRole="DataSets" ToRole="Categories" />
+    <NavigationProperty Name="DataSetFileDetail" Relationship="db_AcikVeriPortalModel.FK_DataSetFileDetail_DataSetId" FromRole="DataSets" ToRole="DataSetFileDetail" />
+    <NavigationProperty Name="Formats" Relationship="db_AcikVeriPortalModel.FK_DataSets_FormatId" FromRole="DataSets" ToRole="Formats" />
+    <NavigationProperty Name="Labels" Relationship="db_AcikVeriPortalModel.FK_DataSets_LabelId" FromRole="DataSets" ToRole="Labels" />
+    <NavigationProperty Name="Licenses" Relationship="db_AcikVeriPortalModel.FK_DataSets_LicenseId" FromRole="DataSets" ToRole="Licenses" />
+    <NavigationProperty Name="Organizations" Relationship="db_AcikVeriPortalModel.FK_DataSets_OrganizationId" FromRole="DataSets" ToRole="Organizations" />
+  </EntityType>
+  <Association Name="FK_DataSets_CategoryId">
+    <End Type="db_AcikVeriPortalModel.Categories" Role="Categories" Multiplicity="1" />
+    <End Type="db_AcikVeriPortalModel.DataSets" Role="DataSets" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Categories">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="DataSets">
+        <PropertyRef Name="CategoryId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DataSetFileDetail_DataSetId">
+    <End Type="db_AcikVeriPortalModel.DataSets" Role="DataSets" Multiplicity="1" />
+    <End Type="db_AcikVeriPortalModel.DataSetFileDetail" Role="DataSetFileDetail" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DataSets">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="DataSetFileDetail">
+        <PropertyRef Name="DataSetId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DataSets_FormatId">
+    <End Type="db_AcikVeriPortalModel.Formats" Role="Formats" Multiplicity="1" />
+    <End Type="db_AcikVeriPortalModel.DataSets" Role="DataSets" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Formats">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="DataSets">
+        <PropertyRef Name="FormatId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DataSets_LabelId">
+    <End Type="db_AcikVeriPortalModel.Labels" Role="Labels" Multiplicity="1" />
+    <End Type="db_AcikVeriPortalModel.DataSets" Role="DataSets" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Labels">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="DataSets">
+        <PropertyRef Name="LabelId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DataSets_LicenseId">
+    <End Type="db_AcikVeriPortalModel.Licenses" Role="Licenses" Multiplicity="1" />
+    <End Type="db_AcikVeriPortalModel.DataSets" Role="DataSets" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Licenses">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="DataSets">
+        <PropertyRef Name="LicenseId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DataSets_OrganizationId">
+    <End Type="db_AcikVeriPortalModel.Organizations" Role="Organizations" Multiplicity="1" />
+    <End Type="db_AcikVeriPortalModel.DataSets" Role="DataSets" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Organizations">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="DataSets">
+        <PropertyRef Name="OrganizationId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="admin">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="email" Type="String" Nullable="false" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="sifre" Type="String" Nullable="false" MaxLength="200" FixedLength="false" Unicode="true" />
+  </EntityType>
+</Schema>

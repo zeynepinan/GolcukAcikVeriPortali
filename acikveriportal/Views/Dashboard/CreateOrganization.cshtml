@@ -1,0 +1,32 @@
+﻿@using acikveriportal.Models
+@model Organization
+
+@{
+    ViewBag.Title = "CreateOrganization";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<body>
+    <input type="button" class="btn btn-info" value="Organizasyon Listesi" onclick="location.href='@Url.Action("AllOrganization", "Dashboard")'" />
+    <section>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    @using (Html.BeginForm("OrganizationCreated", "Dashboard", FormMethod.Post))
+                    {
+                        <div class="form-group">
+                            @Html.LabelFor(n => n.Name)
+                            @Html.TextBoxFor(n => n.Name, new { @class = "form-control" })
+                            @Html.ValidationMessageFor(n => n.Name, "", new { @class = "text-danger" })
+                        </div>
+                        <button type="submit" class="btn btn-success">Kaydet</button>
+                    }
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+

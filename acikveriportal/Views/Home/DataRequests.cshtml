@@ -1,0 +1,73 @@
+﻿
+@{
+    ViewBag.Title = "DataRequests";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+
+@model PagedList.IPagedList<DataRequestViewModel>
+@using PagedList.Mvc;
+@using acikveriportal.ViewModels
+
+
+<link href="~/Content/PagedList.css" rel="stylesheet" />
+<link href="~/Content/table.css" rel="stylesheet" />
+
+
+<body>
+    <input type="button" class="btn btn-success" value="Veri İsteği Ekle" onclick="location.href='@Url.Action("CreateDataRequest", "Home")'" />
+    <section>
+        <div class="container">
+            <br />
+            <div class="row">
+                <br />
+                <div class="col-md-12" style="border:1px solid black; border-radius:5px; height:700px; width:650px;">
+                    <br />
+                    <div class="col-md-12">
+                        @using (Html.BeginForm("DataRequests", "Home", FormMethod.Get))
+                        {
+                            <div class="input-group">
+                                @Html.TextBox("Search_Data", ViewBag.FilterValue as string, new { @class = "form-control", @placeholder = "Veri İsteği Arayın..." })
+                                <span class="input-group-btn">
+                                    <input class="btn btn-default" type="submit" value="Ara" />
+                                </span>
+                            </div>}
+                    </div>
+                    <br />
+                    @if (Model.Count() > 0)
+                    {
+                        <div class="input-group">
+                            <table class="table">
+                                <tr>
+                                    <th>Başlık</th>
+                                    <th>Açıklama</th>
+                                    <th>Statü</th>
+                                </tr>
+
+                                @foreach (var item in Model)
+                                {
+                                    <tr>
+                                        <td>@Html.DisplayFor(modelItem => item.Title)</td>
+                                        <td>@Html.DisplayFor(modelItem => item.Description)</td>
+                                        <td>@Html.DisplayFor(modelItem => item.StatusName)</td>
+                                    </tr>
+                                }
+
+                            </table>
+                            <br />
+                           
+                            @Html.PagedListPager(Model, Page_No => Url.Action("DataRequests", "Home", new { Page_No, Sorting_Order = ViewBag.CurrentSortOrder, Filter_Value = ViewBag.FilterValue }))
+
+                        </div> }
+                    else
+                    {
+                        <div class="text-center alert-info">
+                            <h3> Aradığınız Kayıt Bulunamadı</h3>
+                        </div>}
+                </div>
+                <br />
+            </div>
+            <br />
+        </div>
+        <br />
+    </section>
+</body>

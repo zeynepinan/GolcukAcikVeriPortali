@@ -1,0 +1,16 @@
+﻿
+@{
+    ViewBag.Title = "DeleteDataSet";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@using acikveriportal.Models
+@model DataSet
+
+<div class="text-center">
+    <h2 class="text-danger">Silinmek istenen kayıt: @Model.Title</h2>
+    <h3>Bu kaydı silmek istediğinize emin misiniz ?</h3>
+</div>
+
+<input type="button" class="btn btn-info" value="İptal" onclick="location.href='@Url.Action("All", "Dashboard")'" />
+<input type="button" class="btn btn-danger" value="Sil" onclick="location.href='@Url.Action("DataSetDeleted", "Dashboard", new { @id = $"{Model.Id}" }, null)'" />

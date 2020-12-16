@@ -1,0 +1,171 @@
+﻿@{ ViewBag.Title = "_OrganizationLayout";
+    Layout = "~/Views/Shared/_MainLayout.cshtml"; }
+
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css" />
+    <title>Gölcük Açık Veri Portalı</title>
+
+
+    <style type="text/css">
+        .category_block {
+            background: none repeat scroll 0 0 #E0FFFF;
+            border-radius: 10px 10px 10px 10px;
+            margin: 0 0 15px;
+            padding: 15px;
+            width: 300px;
+            margin-top: 100px;
+            margin-bottom: 100px;
+            margin-right: 150px;
+            margin-left: 80px;
+            height: auto;
+        }
+
+
+        .clear {
+            clear: both;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+
+
+
+
+    <style>
+
+        .center {
+            margin-left: 500px;
+            margin-right: 50px;
+            margin-top: 50px;
+            margin-bottom: 500px;
+            width: 60%;
+            background-color: #F8F8FF;
+        }
+    </style>
+
+
+
+    <style type="text/css">
+        .btn {
+            background-color: white;
+            border: 2px solid #09F;
+            border-radius: 8px;
+            color: #09F;
+            padding: 16px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 12pt;
+            font-family: Verdana;
+            margin: 4px 2px;
+            transition: all 0.4s;
+            -webkit-transition: all 0.4s;
+            -moz-transition: all 0.4s;
+            -o-transition: all 0.4s;
+        }
+
+            .btn:hover {
+                box-shadow: 0 4px 8px 0 gray, 0 6px 20px 0 gray;
+            }
+    </style>
+    <style>
+
+   
+    .content {
+    width:690px;
+
+    height:590px;
+
+    background-color:white;
+
+    float:right;
+    margin-right:200px;
+    margin-top:25px;
+    }
+    </style>
+
+
+
+
+</head>
+<body>
+
+
+  
+   
+   
+
+    <article class="content">
+
+        <div class="card text-center">
+            <div class="card-header">
+                <ul class="nav nav-tabs card-header-tabs">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Veri Setleri</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Veri İstekleri</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Duyurular</a>
+                    </li>
+                    
+                </ul>
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Special title treatment</h5>
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                
+            </div>
+        </div>
+        
+    </article>
+    
+
+
+    
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="">
+        @RenderBody()
+    </div>
+
+
+
+
+
+
+
+
+
+    
+
+</body>
+</html>

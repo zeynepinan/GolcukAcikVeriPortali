@@ -1,0 +1,63 @@
+﻿
+@{
+    ViewBag.Title = "DataSetDetails";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+@using acikveriportal.ViewModels
+@model DataSetViewModel
+
+<body>
+    <section>
+
+        <div class="container">
+            <br />
+            <h2 style="color:darkblue"> <b>@Model.Title</b></h2>
+            <div class="row" style="border:1px solid black; border-radius:5px; height:428px; width:1137px;">
+                <div class="col-md-8">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h5><b>Açıklama</b></h5>
+                            <div class="col-md-12" style="border:1px solid black; border-radius:5px;height:145px; width:650px;">
+                                @Model.Description
+                            </div>
+                        </div>
+
+                        <div class="col-md-12">
+                            <h5><b>Veri ve Kaynaklar</b></h5>
+                            <div class="col-md-12" style="border:1px solid black; border-radius:5px;height:145px; width:650px;">
+                                <ul class="attachment">
+                                    @foreach (var item in Model.DataSetFileDetails)
+                                    {
+                                        <li>
+                                            <a class="title" href="/Dashboard/Download/?p=@(item.FileDataId + item.Extension)&d=@item.FileName">@item.FileName (İndir)</a>
+                                            <a href="/Dashboard/DeleteFile/?id=@item.FileDataId">Sil</a>
+                                        </li>
+                                    }
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <h5><b>Diğer Bilgiler</b></h5>
+                    <div class="col-md-12" style="border:1px solid black; border-radius:5px;height:321px; width:650px;">
+                        <div class="row">
+                             <label><b>Kategori</b></label>
+                            <div class="col-md-12"> @Model.CategoryName </div>
+                            <label><b>Organizasyon</b></label>
+                            <div class="col-md-12"> @Model.OrganizationName </div>
+                            <label><b>Format</b></label>
+                            <div class="col-md-12"> @Model.FormatName </div>
+                            <label><b>Etiket</b></label>
+                            <div class="col-md-12"> @Model.LabelName </div>
+                            <label><b>Lisans</b></label>
+                            <div class="col-md-12"> @Model.LicenseName </div>
+                        </div>
+                   
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br />
+    </section>
+</body>

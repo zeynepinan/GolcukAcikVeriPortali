@@ -1,0 +1,186 @@
+  [UseReadonlyDb]
+        public IQueryable<TripTrackingListResponse> GetTripTrackingList(TripTrackingListRequest request)
+        {
+            #region OrderFilters
+
+
+            var tripNumberList = new List<int?>();
+            if (!string.IsNullOrWhiteSpace(request.FilterTripNo) ||
+                !string.IsNullOrWhiteSpace(request.FilterOrderNo) ||
+                !string.IsNullOrWhiteSpace(request.FilterCostumerOrderNo) ||
+                !string.IsNullOrWhiteSpace(request.FilterBarcodeNo) ||
+                !string.IsNullOrWhiteSpace(request.FilterWaybillNo))
+            {
+                request.FilterStartDate = null;
+                request.FilterEndDate = null;
+            }
+
+            IQueryable<int> orderQuery = Enumerable.Empty<int>() as IQueryable<int>;
+            if (!string.IsNullOrWhiteSpace(request.FilterOrderNo))
+            {
+                var orderNumberList = request.FilterOrderNo
+                    .Replace(',', ' ')
+                    .Replace('-', ' ')
+                    .Replace(';', ' ')
+                    .Replace('\t', ' ')
+                    .Replace('\r', ' ')
+                    .Replace('\n', ' ')
+                    .Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries)
+                    .Select(x =>
+                    {
+                        int.TryParse(x, out int res);
+                        return res as int?;
+                    });
+
+                orderQuery =
+                (
+                     from order in _orderService.GetOrderList().Where(x=> orderNumberList.Contains(x.OrderNumber))
+                     join tripOrder in _tripOrderService.GetTripOrderList() on order.Id equals tripOrder.OrderId
+                     join trip in _tripService.GetTripList() on tripOrder.TripId equals trip.Id
+                     select trip.TripNumber
+                );
+            }
+
+            IQueryable<int> customerOrderNoQuery = Enumerable.Empty<int>() as IQueryable<int>;
+            if (!string.IsNullOrWhiteSpace(request.FilterCostumerOrderNo))
+            {
+                var customerOrderNumberList = request.FilterCostumerOrderNo
+                    .Replace(',', ' ')
+                    .Replace('-', ' ')
+                    .Replace(';', ' ')
+                    .Replace('\t', ' ')
+                    .Replace('\r', ' ')
+                    .Replace('\n', ' ')
+                    .Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
+
+                customerOrderNoQuery =
+                (
+                     from order in _orderService.GetOrderList().Where(x => customerOrderNumberList.Contains(x.CustomerOrderNumber))
+                     join tripOrder in _tripOrderService.GetTripOrderList() on order.Id equals tripOrder.OrderId
+                     join trip in _tripService.GetTripList() on tripOrder.TripId equals trip.Id
+                     select trip.TripNumber
+                );
+            }
+
+            IQueryable<int> barcodeNoQuery = Enumerable.Empty<int>() as IQueryable<int>;
+            if (!string.IsNullOrWhiteSpace(request.FilterBarcodeNo))
+            {
+                var barcodeNumberList = request.FilterBarcodeNo
+                    .Replace(',', ' ')
+                    .Replace('-', ' ')
+                    .Replace(';', ' ')
+                    .Replace('\t', ' ')
+                    .Replace('\r', ' ')
+                    .Replace('\n', ' ')
+                    .Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries)
+                    .Select(x =>
+                    {
+                        int.TryParse(x, out int res);
+                        return res as int?;
+                    });
+
+                //barcodeNoQuery =
+                //(
+                //    from orderbarcode in _orderService.GetOrderBarcodeList()
+                //    join tripOrder in _tripOrderService.GetTripOrderList() on orderbarcode.OrderId equals tripOrder.OrderId
+                //    join trip in _tripService.GetTripList() on tripOrder.TripId equals trip.Id
+                //    where barcodeNumberList.Contains(orderbarcode.BarcodeNumber)
+                //    select trip.TripNumber
+                //);
+            }
+
+            if (!string.IsNullOrWhiteSpace(request.FilterTripNo))
+            {
+                tripNumberList = request.FilterTripNo
+                   .Replace(',', ' ')
+                   .Replace('-', ' ')
+                   .Replace(';', ' ')
+                   .Replace('\t', ' ')
+                   .Replace('\r', ' ')
+                   .Replace('\n', ' ')
+                   .Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries)
+                   .Select(x =>
+                   {
+                       int.TryParse(x, out int res);
+                       return res as int?;
+                   }).ToList();
+            }
+
+
+            #endregion OrderFilters
+
+            return
+              (
+               from trip in _tripService.GetTripList()
+               .WhereIf(tripNumberList.Any(), x => tripNumberList.Contains(x.TripNumber))
+               .WhereIf(request.FilterStartDate.HasValue, x => x.PlanningTripStartDate >= request.FilterStartDate.Value)
+               .WhereIf(request.FilterEndDate.HasValue, x => x.PlanningTripStartDate <= request.FilterEndDate.Value)
+               .WhereIf(!string.IsNullOrEmpty(request.FilterOrderNo), x => orderQuery.Contains(x.TripNumber))
+               .WhereIf(!string.IsNullOrEmpty(request.FilterCostumerOrderNo), x => customerOrderNoQuery.Contains(x.TripNumber))
+               .WhereIf(!string.IsNullOrEmpty(request.FilterBarcodeNo), x => barcodeNoQuery.Contains(x.TripNumber))
+               .WhereIf(request.FilterTrailerPlate.HasValue, x => x.TailVehicleId == request.FilterTrailerPlate.Value)
+               .WhereIf(request.FilterVehiclePlate.HasValue, x => x.VehicleId == request.FilterVehiclePlate.Value)
+               .WhereIf(request.FilterOnTheRoad == true, x => x.TripStatusId == TripStatus.YOL.Value.Id)
+               .WhereIf(request.FilterUploaded == true, x => x.TripStatusId == TripStatus.YUK.Value.Id)
+               .WhereIf(request.TripStatusIds != null && request.TripStatusIds.Length > 0, x => request.TripStatusIds.Contains(x.TripStatusId))
+               join tripStatus in _tripService.GetTripStatusList() on trip.TripStatusId equals tripStatus.Id
+               join vehicle in _vehicleService.GetVehicleList() on trip.VehicleId equals vehicle.Id into VehicleTemp
+               from vehicle in VehicleTemp.DefaultIfEmpty()
+               join tailPlate in _vehicleService.GetVehicleList() on trip.TailVehicleId equals tailPlate.Id into tailPlateTemp
+               from tailPlate in tailPlateTemp.DefaultIfEmpty()
+               join vehicleType in _vehicleService.GetVehicleTypeList() on vehicle.VehicleTypeId equals vehicleType.Id into tmpVehicleType
+               from vehicleType in tmpVehicleType.DefaultIfEmpty()
+               join planningVehicleType in _vehicleService.GetVehicleTypeList() on trip.PlanningVehicleTypeId equals planningVehicleType.Id into planningTemp
+               from planningVehicleType in planningTemp.DefaultIfEmpty()
+               join firstNameDriver in _masterDataService.GetDriverList() on trip.FirstDriverId equals firstNameDriver.Id into firstTemp
+               from firstNameDriver in firstTemp.DefaultIfEmpty()
+               join secondNameDriver in _masterDataService.GetDriverList() on trip.SecondDriverId equals secondNameDriver.Id into secondTemp
+               from secondNameDriver in secondTemp.DefaultIfEmpty()
+               join account in _accountService.GetAccountList() on trip.AccountVendorId equals account.Id into accountTemp
+               from account in accountTemp.DefaultIfEmpty()
+               join creatorUser in _usersService.GetUserList() on trip.CreatorUserId equals creatorUser.Id
+               join updaterUserTemp in _usersService.GetUserList() on trip.UpdaterUserId equals updaterUserTemp.Id into updaterUserTemp
+               from updaterUser in updaterUserTemp.DefaultIfEmpty()
+               join vehicleOwnerType in _vehicleService.GetVehicleOwnerTypeList() on trip.VehicleOwnerTypeId equals vehicleOwnerType.Id into vehicleOwnerTypeTemp
+               from vehicleOwnerType in vehicleOwnerTypeTemp.DefaultIfEmpty()
+               select new TripTrackingListResponse
+               {
+                   Id = trip.Id,
+                   TripStatusId = tripStatus.Id,
+                   IsFuelGiven = vehicle.IsExemptFuel,
+                   TripStartDate = trip.PlanningTripStartDate,
+                   TripEndDate = trip.PlanningTripEndDate,
+                   TripNo = trip.TripNumber,
+                   TripStatusCode = tripStatus.Code,
+                   TripStatusName = tripStatus.Name,
+                   VehiclePlate = vehicle.Plate,
+                   TrailerPlate = tailPlate.Plate,
+                   VehicleOwnerType = vehicleOwnerType.Name,
+                   FirstDriver = firstNameDriver.Name + " " + firstNameDriver.Surname,
+                   SecondDriver = secondNameDriver.Name + " " + secondNameDriver.Surname,
+                   AccountVendorId = account.Id,
+                   AccountVendorCode = account.MdmCode,
+                   AccountVendorName = account.Name1 + " " + account.Name2,
+                   PlanningVehicleType = planningVehicleType.Name,
+                   VehicleType = vehicleType.Name,
+                   TripAccountingItem = tripStatus.Code,
+                   TotalDesi = _tripOrderService.GetTripOrderList().Where(x => x.TripId == trip.Id).Sum(x => x.PlannedDesi),
+                   TotalWeight = _tripOrderService.GetTripOrderList().Where(x => x.TripId == trip.Id).Sum(x => x.PlannedWeight),
+                   CapacityDesi = (trip.VehicleId.HasValue ? _tripOrderService.GetTripOrderList().Where(x => x.TripId == trip.Id).Sum(x => x.PlannedDesi) / (planningVehicleType != null && planningVehicleType.CapacityDeci > 0 ? planningVehicleType.CapacityDeci : 1) : _tripOrderService.GetTripOrderList().Where(x => x.TripId == trip.Id).Sum(x => x.PlannedDesi) / (tailPlate.CapacityDeci == 0 ? 1 : tailPlate.CapacityDeci)).GetValueOrDefault(),
+                   CapacityWeight = (trip.VehicleId.HasValue ? _tripOrderService.GetTripOrderList().Where(x => x.TripId == trip.Id).Sum(x => x.PlannedWeight) / (planningVehicleType != null && planningVehicleType.CapacityWeight > 0 ? planningVehicleType.CapacityWeight : 1) : _tripOrderService.GetTripOrderList().Where(x => x.TripId == trip.Id).Sum(x => x.PlannedWeight) / (tailPlate.CapacityDeci == 0 ? 1 : tailPlate.CapacityDeci)).GetValueOrDefault(),
+                   WayBillCount = (from tripOrder in _tripOrderService.GetTripOrderList().Where(m => m.TripId == trip.Id)
+                                   join orderWayyBill in _orderService.GetOrderWaybillList() on tripOrder.OrderId equals orderWayyBill.OrderId
+                                   select orderWayyBill.Id).Distinct().Count(),
+                   CreateDate = trip.CreateDate,
+                   UpdateDate = trip.UpdateDate,
+                   CreatorUser = creatorUser.Name + " " + creatorUser.Surname,
+                   UpdaterUser = updaterUser.Name + " " + updaterUser.Surname,
+                   Balance = trip.Balance,
+                  
+                   IsTripOnTheRoad = trip.IsTripOnTheRoad,
+                   VehicleId = trip.VehicleId,
+                   TailVehicleId = trip.TailVehicleId,
+                   TripVehicleOwnerTypeId = trip.VehicleOwnerTypeId
+               }
+           );
+        }

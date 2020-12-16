@@ -1,0 +1,151 @@
+<div class="modal fade" bsModal #manualTripTemplate="bs-modal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Sefer Oluþturma / Güncelleme Ekraný</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Kapat"
+                        (click)="manualTripTemplate.hide()">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="border">
+                    <div class="mt-2">
+                        <div class="col-12">
+                            <div class="form-row">
+                                <div class="col-6">
+                                    <div class="has-placeholder mb-1">
+                                        <dx-date-box name="planningTripStartDate" placeholder="Planlanan Sefer Baþlangýç Tarihi"
+                                                     style="width: 100%;" [(ngModel)]="requestModel.planningTripStartDate">
+                                        </dx-date-box>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="has-placeholder mb-1">
+                                        <app-bl-dropdown-component name="planningVehicleTypeDropDownBox"
+                                                                   [placeholder]="'Planlanan Araç Tipi'"
+                                                                   [isDisable]="!nullCheck.isNull(requestModel.vehicleId)"
+                                                                   [url]="'masterData/getVehicleTypeDropdownList'"
+                                                                   [useCache]="false"
+                                                                   [(model)]="requestModel.planningVehicleTypeId" [columns]="[
+                                                    { dataField: 'code', caption: 'Kodu' },
+                                                    { dataField: 'name', caption: 'Adý' }]">
+                                        </app-bl-dropdown-component>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <section id="arac-bilgileri" class="content-section p-1 mb-2">
+                        <header>
+                            <button class="btn btn-secondary btn-block font-weight-medium text-white d-flex align-items-center justify-content-between rounded-0 collapse-toggle "
+                                    type="button" data-target="#arac-bilgileri-content">
+                                Araç Bilgileri
+                            </button>
+                        </header>
+                        <div id="arac-bilgileri-content" class="show">
+                            <div class="mt-2">
+                                <div class="form-row">
+                                    <div class="col-sm-4">
+                                        <div class="has-placeholder mb-1">
+                                            <app-bl-dropdown-component name="vehicleDropDownBox"
+                                                                       [placeholder]="'Araç Plaka'" [url]="'vehicle/getVehicleTrailerDropdownList'"
+                                                                       [useCache]="false"
+                                                                       (onSelectedItemChange)="vehicleOnChange($event)"
+                                                                       [displayName]="'plate'" [(model)]="requestModel.vehicleId" [columns]="[
+                                                    { dataField: 'plate', caption: 'Plaka' }]">
+                                            </app-bl-dropdown-component>
+                                        </div>
+                                        <div class="has-placeholder mb-1">
+                                            <app-bl-dropdown-component name="vehicleTailDropDownBox"
+                                                                       [placeholder]="'Kuyruk Plaka'" [url]="'vehicle/getVehicleTrailerDropdownList'"
+                                                                       [useCache]="false"
+                                                                       [isDisable]="true"
+                                                                       [displayName]="'plate'" [(model)]="requestModel.tailVehicleId" [columns]="[
+                                                        { dataField: 'plate', caption: 'Plaka' }]">
+                                            </app-bl-dropdown-component>
+                                        </div> 
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <div class="has-placeholder mb-1">
+                                            <app-bl-dropdown-component name="vehicleTypeDropDownBox" [isDisable]="true"
+                                                                       [placeholder]="'Araç Tipi'" [url]="'masterData/getVehicleTypeDropdownList'"
+                                                                       [useCache]="false"
+                                                                       [(model)]="requestModel.vehicleTypeId" [columns]="[
+                                                    { dataField: 'code', caption: 'Kodu' },
+                                                    { dataField: 'name', caption: 'Adý' }]">
+                                            </app-bl-dropdown-component>
+                                        </div>
+                                        <div class="has-placeholder mb-1">
+                                            <app-bl-dropdown-component name="vehicleOwnerTypeDropDownBox" [isDisable]="true"
+                                                                       [placeholder]="'Araç Aidiyet'" [url]="'vehicle/getVehicleOwnerTypeDropdownList'"
+                                                                       [useCache]="false"
+                                                                       [(model)]="requestModel.vehicleOwnerTypeId" [columns]="[
+                                                        { dataField: 'code', caption: 'Kod' },
+                                                        { dataField: 'name', caption: 'Ad' }]">
+                                            </app-bl-dropdown-component>
+                                        </div>
+                                        <div class="has-placeholder mb-1">
+                                            <app-bl-dropdown-component name="accountVendorDropDownBox" [isDisable]="true"
+                                                                       [useCache]="false"
+                                                                       [placeholder]="'Tedarikçi'" [url]="'account/getAccountVendorDropdownList'"
+                                                                       [displayName]="'name'" [(model)]="requestModel.accountVendorId" [columns]="[
+                                                        { dataField: 'name', caption: 'Ad' }]">
+                                            </app-bl-dropdown-component>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <div class="demo-input-select has-placeholder mb-1">
+                                            <dx-number-box placeholder="Aðýrlýk Kapasite" [disabled]="true" [min]="0"
+                                                           [(ngModel)]="requestModel.capacityWeight">
+                                            </dx-number-box>
+                                        </div>
+                                        <div class="demo-input-select has-placeholder mb-1">
+                                            <dx-number-box placeholder="Desi Kapasite" [disabled]="true" [min]="0"
+                                                           [(ngModel)]="requestModel.capacityDesi">
+                                            </dx-number-box>
+                                        </div>
+                                        <div class="demo-input-select has-placeholder mb-1">
+                                            <dx-number-box placeholder="Hacim Kapasite" [disabled]="true" [min]="0"
+                                                           [(ngModel)]="requestModel.capacityVolume">
+                                            </dx-number-box>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </section>
+                    <section id="surucu-bilgileri" class="content-section p-1 mb-2">
+                        <header>
+                            <button class="btn btn-secondary btn-block font-weight-medium text-white d-flex align-items-center justify-content-between rounded-0 collapse-toggle "
+                                    type="button" data-target="#surucu-bilgileri-content">
+                                Sürücü Bilgileri
+                            </button>
+                        </header>
+                        <div id="surucu-bilgileri-content" class="show">
+                            <div class="mt-2">
+                                <app-bl-grid-component #driverGrid [noDataText]="'Sürücü Bilgisi Bulunamadý'"
+                                                       [isAllowAdding]="true" [isAllowDeleting]="true" [isAllowUpdating]="true"
+                                                       [showAutoFilterRow]="false" [isExcelExport]="true" [repaintChangesOnly]="false">
+                                </app-bl-grid-component>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <div class="d-flex validationStatus">
+                    <a href="javascript:void(0)" class="d-none">
+                        <i class="blink fa fa-exclamation-triangle fa-lg fa-fw"></i>
+                    </a>
+                </div>
+                <button type="button" class="btn btn-md position-relative btn-success" data-dismiss="modal"
+                        (click)="saveTrip()">
+                    Kaydet
+                </button>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,93 @@
+﻿
+@{
+    ViewBag.Title = "Datasets";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<body>
+    <section class="bg-white py-5 bordered" style="height:850px;">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-12">
+                    <form id="user-register-form" action="" method="post" style="border:1px solid black; border-radius:5px; height:508px; width:650px;">
+
+                        <div class="module-content" style="margin-left:50px;">
+                            <h1 class="page-heading" style="margin-top:30px;"> Yeni Hesap Oluştur</h1>
+
+
+                            <div class="form-group control-medium">
+                                <label class="control-label col-md-3" for="field-fullname">Ad</label>
+                                <div class="controls col-md-9 ">
+                                    <input id="field-fullname" type="text" required="required" name="Ad" value="" placeholder="Ad" class="form-control">
+                                </div>
+                            </div>
+                            <div class="form-group control-medium">
+                                <label class="control-label col-md-3" for="field-fullname">Soyad</label>
+                                <div class="controls col-md-9 ">
+                                    <input id="field-fullname" type="text" required="required" name="Soyad" value="" placeholder="Soyad" class="form-control">
+                                </div>
+                            </div>
+
+
+                            <div class="form-group control-medium">
+                                <label class="control-label col-md-3" for="field-email"><span title="Bu alan gerekli" class="control-required">*</span> E-posta</label>
+                                <div class="controls col-md-9 ">
+                                    <input id="field-email" type="text" required="required" name="EPosta" value="" placeholder="joe@gmail.com" class="form-control">
+                                </div>
+                            </div>
+
+                            <div class="form-group control-medium">
+                                <label class="control-label col-md-3" for="field-password"><span title="Bu alan gerekli" class="control-required">*</span> Şifre</label>
+                                <div class="controls col-md-9 ">
+                                    <input id="field-password" type="password" required="required" name="Sifre" value="" placeholder="••••••••" class="form-control">
+                                </div>
+                            </div>
+
+                            @*<div class="form-group control-medium">
+                                    <label class="control-label col-md-3" for="field-confirm-password"><span title="Bu alan gerekli" class="control-required">*</span> Onayla</label>
+                                    <div class="controls col-md-9 ">
+                                        <input id="field-confirm-password" type="password" required="required" name="password2" value="" placeholder="••••••••" class="form-control">
+                                    </div>
+                                </div>*@
+
+
+                            @*<div class="form-group">
+                                    <div class="controls col-md-6" style="left:120px;">
+                                        <script src="https://www.google.com/recaptcha/api.js" async="" defer=""></script>
+                                        <div class="g-recaptcha" data-sitekey="6LcOKtEUAAAAAIWCkkKNLi8GTdotWJQ9_9JxdQfp"><div style="width: 304px; height: 78px;"><div><iframe src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LcOKtEUAAAAAIWCkkKNLi8GTdotWJQ9_9JxdQfp&amp;co=aHR0cHM6Ly9kYXRhLmliYi5nb3YudHI6NDQz&amp;hl=tr&amp;v=nuX0GNR875hMLA1LR7ayD9tc&amp;size=normal&amp;cb=3dykjqyvfpvf" width="304" height="78" role="presentation" name="a-36rcywyfdw5a" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe></div><textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div><iframe __idm_frm__="138" style="display: none;"></iframe></div>
+
+                                        <noscript>
+                                            <div style="width: 304px; height: 352px; position: relative;">
+                                                <div style="width: 304px; height: 352px; position: absolute;">
+                                                    <iframe src="https://www.google.com/recaptcha/api/fallback?k=6LcOKtEUAAAAAIWCkkKNLi8GTdotWJQ9_9JxdQfp" frameborder="0" scrolling="no"
+                                                            style="width: 304px; height:352px"></iframe>
+                                                </div>
+
+                                                <div style="width: 250px; height: 80px; position: absolute; bottom: 21px; left: 25px; margin: 0; padding: 0; right: 25px;">
+                                                    <textarea id="g-recaptcha-response" name="g-recaptcha-response"
+                                                              style="width: 250px; height: 80px; border: 1px solid #c1c1c1; margin: 0; padding: 0; resize: none;"
+                                                              class="g-recaptcha-response"></textarea>
+                                                </div>
+                                            </div>
+                                        </noscript>
+                                    </div>
+                                </div>*@
+
+                            @*<p class="control-required-message" style="margin-top:-20px; margin-left:20px;">
+                                    <span class="control-required">*</span> Gerekli alanlar
+                                </p>*@
+
+
+                            <div class="form-actions">
+
+                                <button class="btn btn-primary " type="submit" name="save" style="margin-left:308px;">Hesap Oluştur</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </section>
+</body>

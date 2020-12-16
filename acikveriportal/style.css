@@ -1,0 +1,8 @@
+﻿body {
+}
+.gradient {
+    background: linear-gradient(#84f6fe,#308ed4);
+}
+.bg-white {
+    background-color: aliceblue !important;
+}

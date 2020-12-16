@@ -1,0 +1,144 @@
+﻿@{ Layout = "~/Views/Shared/_MainLayout.cshtml"; }
+
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css" />
+    <title>Gölcük Açık Veri Portalı</title>
+    <style>
+        .gradient {
+            background: linear-gradient(#101353,#4384dd);
+        }
+
+        .bg-gradient {
+            background: linear-gradient(#4384dd,#101353);
+        }
+    </style>
+
+</head>
+<body>
+    <section id="homepage-banner" class="gradient py-5 text-white" style="height:320px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div id="acikveri-slider" class="carousel slide " data-ride="carousel" style="height:50px;">
+                        <div class="carousel-inner text-center">
+                            <div class="carousel-item active ">
+                                <h1 class="display-2" style=" font-size:60px;">GÖLCÜK Açık Veri Portalı'na HOŞGELDİNİZ..</h1>
+                            </div>
+                            <div class="carousel-item">
+                                <h1 class="display-2" style="font-size:60px;">Veriseti mi Arıyorsunuz?</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <a href="#acikveri-slider" class="carousel-control-prev" data-slide="prev">
+                    <span class="carousel-control-prev-icon"> </span>
+                </a>
+                <a href="#acikveri-slider" class="carousel-control-next" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+
+
+            </div>
+            <div id="search-box">
+
+                @using (Html.BeginForm("DataSets", "Home", FormMethod.Get))
+                {
+    <div class="input-group" style="margin-left:-30px;margin-top: 65px;">
+        @Html.TextBox("Search_Data", ViewBag.FilterValue as string, new { @class = "form-control", @placeholder = "Veri Seti Arayın..." })
+        <span class="input-group-btn">
+            <button type="submit"><img src="~/imagess/images.png" /></button>
+        </span>
+    </div>}
+            </div>
+        </div>
+
+    </section>
+
+
+    <section id="categories" style="height:550px;">
+        <div class="container" style="margin-top:100px; margin-left:150px;">
+            <div class="row " style="margin-top:-50px; margin-left:450px; ">
+                <h3>Kategoriler</h3><br />
+
+            </div>
+            <div class="row" style="margin-top:50px;">
+
+                <a class="col-xs-12 col-sm-6 col-md-3" href="/Home/DataSets?Search_Data=Ekonomi">
+                    <img class="cat-icons" src="~/imagess/ekonomi.png" alt="Ekonomi"><br />
+                    <span class="cat-head">Ekonomi</span>
+                </a>
+
+
+                <a class="col-xs-12 col-sm-6 col-md-3" href="/Home/DataSets?Search_Data=Afet Yönetimi">
+                    <img class="cat-icons" src="~/imagess/afetyon.png" alt="Afet Yönetimi"><br />
+                    <span class="cat-head">Afet Yönetimi</span>
+                </a>
+
+
+
+                <a class="col-xs-12 col-sm-6 col-md-3" href="/Home/DataSets?Search_Data=Enerji">
+                    <img class="cat-icons" src="~/imagess/enerji.png" alt="Enerji"><br />
+                    <span class="cat-head">Enerji</span>
+                </a>
+
+
+
+                <a class="col-xs-12 col-sm-6 col-md-3" href="/Home/DataSets?Search_Data=Yaşam">
+                    <img class="cat-icons" src="~/imagess/yasam.png" alt="Yaşam"><br />
+                    <span class="cat-head">Yaşam</span>
+                </a>
+
+
+
+                <a class="col-xs-12 col-sm-6 col-md-3" style="margin-top:70px;" href="/Home/DataSets?Search_Data=Yönetim">
+                    <img class="cat-icons" src="~/imagess/yonetisim.png" alt="Yönetim"><br />
+                    <span class="cat-head">Yönetim</span>
+                </a>
+
+
+
+                <a class="col-xs-12 col-sm-6 col-md-3" style="margin-top:70px;" href="/Home/DataSets?Search_Data=İnsan">
+                    <img class="cat-icons" src="~/imagess/insan.png" alt="İnsan"><br /></n>
+                    <span class="cat-head">İnsan</span>
+                </a>
+
+
+
+                <a class="col-xs-8 col-sm-6 col-md-3" style="margin-top:70px;" href="/Home/DataSets?Search_Data=Çevre">
+                    <img class="cat-icons" src="~/imagess/cevre.png" alt="Çevre"><br />
+                    <span class="cat-head">Çevre</span>
+                </a>
+
+
+                <a class="col-xs-8 col-sm-6 col-md-3" style="margin-top:70px;" href="/Home/DataSets?Search_Data=Tarih">
+                    <img class="cat-icons" src="~/imagess/tarih.png" alt="Tarih"><br />
+                    <span class="cat-head">Tarih</span>
+                </a>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section class="bg-white py-5" style="height:500px;"></section>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>
+
+

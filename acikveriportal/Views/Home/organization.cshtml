@@ -1,0 +1,129 @@
+﻿
+@{ ViewBag.Title = "organization";
+    Layout = "~/Views/Shared/_MainLayout.cshtml"; }
+
+
+
+<!DOCTYPE html>
+
+<html>
+<head>
+   
+   
+    <style type="text/css">
+        .category_block {
+            background: none repeat scroll 0 0 #E0FFFF;
+            border-radius: 10px 10px 10px 10px;
+            margin: 0 0 15px;
+            padding: 15px;
+            width: 300px;
+            margin-top: 25px;
+            margin-left: -100px;
+        }
+
+       
+    </style>
+
+    <style type="text/css">
+        .kolon {
+            float: left;
+            border: 1px solid grey;
+            padding: 45px;
+            margin: 45px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            
+            
+            
+            
+        }
+    </style>
+   
+
+
+</head>
+<body>
+
+
+    <section style="height:500px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+
+
+                   
+                    <div class="category_block" style="">
+                        <h1 style="font-size:2vw">Organizasyon <br />Nedir?</h1>
+                        <p>
+                            Açık veri organizasyonları, verileri oluşturmak yönetmek ve yayınlamak için kullanılırlar.
+                            Kullanıcılar, organizasyon içinde oluşturma yönetme ve yayınlama yetkilerine göre farklı rollere sahip olabilirler.
+
+
+
+                        </p>
+
+
+                    </div>
+
+
+                </div>
+               
+
+                <div class="col-md-9" style=" width: 60%; background-color: #F8F8FF; height: auto;">
+
+                    <div id="search-box" style="margin-top:-250px;">
+                        <form method="get" action="#">
+                            <div class="form-group" style="margin-left:50px;">
+                                <input placeholder=" Ara" type="text" name="q" value="" autocomplete="off" id="data-search-keyword-input-field" class="form-control" style="width:800px; margin-top:300px;">
+
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="kolon">
+                        <a href="/Organization/belbim">BELBİM A.Ş</a>
+                    </div>
+                    <div class="kolon">
+                        <a href="/Organization/igdas">İGDAŞ</a>
+                    </div>
+                    <div class="kolon">
+                        <a href="/Organization/iski">İSKİ </a>
+                    </div>
+
+                    <div style='clear: both' />
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

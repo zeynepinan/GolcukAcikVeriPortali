@@ -1,0 +1,75 @@
+﻿
+@{
+    /**/
+
+    ViewBag.Title = "contact";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+@using (Html.BeginForm(null, null, FormMethod.Post, new { id = "contact-form", action = "" }))
+{
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="style.css" />
+        <title>Gölcük Açık Veri Portalı</title>
+    </head><body>
+    <section class="bg-white py-5 bordered" style="height:850px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 ">
+                    <form action="" method="post" style="border:1px solid black; border-radius:5px; height:350px; width:604px;">
+                        <div class=" module-content" style="margin-left:50px;">
+                            <h1 class="page-heading" style="margin-top:30px; margin-left:30px;">İletişim Formu</h1>
+                            <div class="form-group control-medium">
+                                <label class="control-label col-md-3" for="field-login">Ad</label>
+                                <div class="controls col-md-6 ">
+
+                                    <input id="field-login" type="text" required="required" name="Name" value="" placeholder="" class="form-control">
+
+                                </div>
+
+                            </div>
+                            <div class="form-group control-medium">
+                                <label class="control-label col-md-3" for="field-login">E-posta</label>
+                                <div class="controls col-md-6 ">
+
+                                    <input id="field-login" type="text" required="required" name="Email" value="" placeholder="" class="form-control">
+
+                                </div>
+
+                            </div>
+                            <div class="form-group control-medium">
+                                <label class="control-label col-md-3" for="field-login">Konu</label>
+                                <div class="controls col-md-6 ">
+
+                                    <input id="field-login" type="text" name="Subject" value="" placeholder="" class="form-control">
+
+                                </div>
+
+                            </div>
+                            <div class="form-group control-medium">
+                                <label class="control-label col-md-3" for="field-login">Mesaj</label>
+                                <div class="controls col-md-6 ">
+
+                                    <textarea id="field-login" type="text" required="required" name="Message" cols="20" rows="4" value="" placeholder="" class="form-control"></textarea>
+
+                                </div>
+
+                            </div>
+
+
+                            <div style="margin-left:400px;">
+
+                                <input type="submit" value="Gönder" class="btn btn-danger" />
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>}
